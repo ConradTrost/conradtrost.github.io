@@ -1,6 +1,46 @@
 #heading {
     font-size: 40px;
-    font-weight: 900;
-    font-style: italic;
-    color: red
+    text-align: center;
+    font-weight: 800;
+    margin: 0 auto;
 }
+
+body {
+    background-color: whitesmoke;
+    border-color: lightcyan;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    opacity: 80%;
+    font-size: 14px;
+}
+
+#sub {
+    text-align: center;
+}
+
+#about {
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#experience {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#projects {
+    text-align: right;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#presub {
+    text-align: center;
+    font-weight: 200;
+}
+
