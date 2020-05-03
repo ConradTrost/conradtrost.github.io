@@ -4,16 +4,18 @@ function aboutFunction() {
     $('.orange').removeClass('orange');
     $('#about').addClass('orange');
     mainSection.html('');
-    var about = '<p>I have nothing interesting about me</p>';
+    var about = '<p>Howdy! I am a web developer originating from South Florida but currently residing in Dallas, TX. </p>'
+    + '<p>I have a wonderful wife, Camila, and a gorgeous German Shepherd named Koda.</p>'
+    + '<p>My hobbies consist of playing guitar, teaching my dog how to play guitar, and giving up on my dream of teaching my dog to play guitar.</p>';
     mainSection.append(about);
 }
 
-function expFunction() {
+function skillsFunction() {
     $('.orange').removeClass('orange');
-    $('#exp').addClass('orange');
+    $('#skills').addClass('orange');
     mainSection.html('');
-    var experience = '<p>I am from New York</p>';
-    mainSection.append(experience);
+    var skills = '<p>I am from New York</p>';
+    mainSection.append(skills);
 }
 
 function projectFunction() {

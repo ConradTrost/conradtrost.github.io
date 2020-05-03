@@ -68,6 +68,8 @@ header h2 {
     font-weight: 130;
     font-size: 18px;
     text-align: center;
+    width: auto;
+    display: inline-block;
 }
 
 ul {
@@ -115,7 +117,7 @@ a:hover {
 
 .section-holder {
     width: auto;
-    margin: 40px;
+    margin: 10px;
     margin-top: 60px;
     font-size: 20px;
 }
