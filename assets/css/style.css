@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: whitesmoke;
     padding-left: 60px;
@@ -7,16 +11,15 @@ body {
     font-family: optima, "Book Antiqua", Palatino, serif;
     opacity: 80%;
     font-size: 24px;
+    text-align: center;
 }
 .main-head {
     display: inline-block;
 }
 
 header {
-    text-align: center;
+    width: 100%;
     font-family: copperplate, "Book Antiqua", Palatino, serif;
-    padding-bottom: 14px;
-    display: flex;
     justify-content: center;
 }
 
@@ -26,28 +29,28 @@ header {
     border-right: .10em solid rgb(255, 102, 0); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    letter-spacing: .2em; /* Adjust as needed */
     animation: 
-      typing 3.5s steps(40, end),
+      typing 2.5s steps(40, end),
       blink-caret .75s step-end infinite;
 }
-  
   /* The typing effect */
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
 }
-  
   /* The typewriter cursor effect */
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    20% { border-color: rgb(255, 102, 0); }
+    50% { border-color: rgb(255, 102, 0); }
  }
 
 
 .inline {
     display: inline-flex;
     padding: 10px;
+    width: 100%;
+    justify-content: center;
 }
 
 .inline li {
@@ -63,7 +66,8 @@ header h1 {
 
 header h2 {
     font-weight: 130;
-    font-size: 24px;
+    font-size: 18px;
+    text-align: center;
 }
 
 ul {
@@ -71,11 +75,19 @@ ul {
 }
 
 .subheader {
-    margin-top: 30px;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgb(146, 146, 146);
     justify-content: center;
     text-decoration: none;
     text-align: center;
+}
+
+.links {
+    height: 70px;
 }
 
 .subheader a {
@@ -105,3 +117,4 @@ a:hover {
     margin: 40px;
     margin-top: 140px;
 }
+
