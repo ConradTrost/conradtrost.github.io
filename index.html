@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html>
-
-    <link rel="stylesheet", href="./style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conrad Trost</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet", href="./assets/css/style.css"/>
 <body>
+    <header>
+        <div class="main-head typewriter">
+            <h1>Conrad Trost</h1>
+            <h2>Web-Developer in Training.</h2>
+        </div>
 
+        <div class="links">
+            <ul class="inline">
+                <li><a href="https://github.com/retro1967"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/conrad-trost-635b591a0"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
 
-<h1 id="heading">Conrad Trost</h1>
+        </div>
+    </header>
 
-<h2 id="presub">Web-Developer in Training</h2>
+    <div class="row subheader container-fluid">
+        <a class="col-lg-2" id="about" href="#About" onclick=aboutFunction()>About</a>
+        <a class="col-lg-2" id="exp" href="#Experience" onclick=expFunction()>Experience</a>
+        <a class="col-lg-2" id="projects" href="#Projects" onclick=projectFunction()>Projects</a>
+        <a class="col-lg-2" id="edu" href="#Education" onclick=educationFunction()>Education</a>
+    </div>
 
-<div class="subheaders">
-    <a id="about" href="#About" style="color: lightcoral">About</a>
-    <a id="experience" href="#Experience" style="color: lightcoral">Experience</a>
-    <a id="projects" href="#Projects" style="color: lightcoral">Projects</a>
-</div>
+    <div class="container-fluid section-holder"></div>
 
-
-<p id="sub">Page about me and my projects</p>
-
-<script src="java.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script src="./assets/js/script.js"></script>
 
 </body>
 </html>
-

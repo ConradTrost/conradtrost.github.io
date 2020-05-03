@@ -1,0 +1,107 @@
+body {
+    background-color: whitesmoke;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: optima, "Book Antiqua", Palatino, serif;
+    opacity: 80%;
+    font-size: 24px;
+}
+.main-head {
+    display: inline-block;
+}
+
+header {
+    text-align: center;
+    font-family: copperplate, "Book Antiqua", Palatino, serif;
+    padding-bottom: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Typewriter Effect on header */
+.typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid rgb(255, 102, 0); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+  
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    20% { border-color: rgb(255, 102, 0); }
+ }
+
+
+.inline {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.inline li {
+    padding: 10px;
+}
+
+
+header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+header h2 {
+    font-weight: 130;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.subheader {
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(146, 146, 146);
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+.subheader a {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+a:hover {
+    color: rgb(255, 102, 0);
+    border-bottom: 1px solid rgb(255, 102, 0);
+    transition: ease all 1s;
+    
+}
+
+.col-lg-2 {
+    color: rgb(44, 44, 44);
+}
+
+.orange {
+    color: rgb(255, 102, 0);
+    border-bottom: 1px solid rgb(255, 102, 0);
+}
+
+.section-holder {
+    margin: 40px;
+    margin-top: 140px;
+}
