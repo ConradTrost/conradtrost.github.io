@@ -121,3 +121,29 @@ a:hover {
     margin-top: 60px;
     font-size: 20px;
 }
+
+.fab {
+    font-size: 36px;
+    color: black;
+}
+
+.icon-contain {
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.skillset {
+    justify-content: start;
+}
+
+.images {
+    margin-bottom: 20px;
+}
+
+#cami {
+    width: 66.5%;
+}
+
+#koda {
+    width: 33.2%;
+}
