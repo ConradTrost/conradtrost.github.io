@@ -3,12 +3,12 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(29, 29, 29);
     font-family: optima, "Book Antiqua", Palatino, serif;
     opacity: 80%;
     font-size: 20px;
     text-align: center;
-    color: black;
+    color: whitesmoke;
 }
 .main-head {
     display: inline-block;
@@ -107,10 +107,6 @@ a:hover {
     color: rgb(44, 44, 44);
 }
 
-.orange {
-    color: rgb(255, 102, 0);
-    border-bottom: 1px solid rgb(255, 102, 0);
-}
 
 .section-holder {
     width: auto;
@@ -125,7 +121,28 @@ a:hover {
 
 .fab {
     font-size: 20px;
-    color: black;
+    color: rgb(255, 102, 0, 0.85);
+}
+
+.fab img {
+    height: 37px;
+    width: auto;
+}
+
+.fa-js {
+    color: rgb(255, 235, 58);
+}
+.fa-html5 {
+    color: rgb(255, 102, 0);
+}
+.fa-css3-alt {
+    color: rgb(72, 72, 252);
+}
+.fa-git-alt {
+    color: rgb(255, 102, 0);
+}
+.icon-contain .fab {
+    font-size: 30px;
 }
 
 .icon-contain {
@@ -163,13 +180,22 @@ a:hover {
 
 .dropdown {
     margin: 0 20px;
+
 }
 
 .dropdown-menu {
     width: 100%;
     text-align: center;
+    background-color: rgb(29, 29, 29);
 }
 
+.dropdown-item {
+    color: whitesmoke;
+}
+.orange {
+    color: rgb(255, 102, 0);
+    border-bottom: 1px solid rgb(255, 102, 0);
+}
 .container-fluid {
     padding: 0;
 }
@@ -201,7 +227,7 @@ a:hover {
     padding: 0;
 }
 
-  .module header {
+.module header {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -210,14 +236,14 @@ a:hover {
     background: inherit;
     background-attachment: fixed;
     overflow: hidden;
-  }
+}
 
 .module header a {
     color: white;
     font-size: 20px;
 }
 
-  .module header::before {
+.module header::before {
     content: "";
     position: absolute;
     top: -20px;
@@ -228,8 +254,8 @@ a:hover {
     background-attachment: fixed;
     -webkit-filter: blur(4px);
     filter: blur(4px);
-  }
-  .module > header::after {
+}
+.module > header::after {
     content: "";
     position: absolute;
     top: 0;
@@ -237,10 +263,18 @@ a:hover {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7)
-  }
-  .module header h1 {
+}
+.module header h1 {
     margin: 0;
     color: white;
     position: relative;
     z-index: 1;
-  }
+}
+
+.btn {
+      border: 1px solid rgb(255, 102, 0, 0.5);
+}
+
+.last-name {
+    color: rgb(255, 102, 0, 0.85);
+}

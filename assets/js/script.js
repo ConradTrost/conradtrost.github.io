@@ -21,10 +21,9 @@ function skillsFunction() {
     heroSection.html('');
     var skills = '<div class="container-fluid skillset"><div class="skill-icons"><div class="icon-contain"><i class="col fab fa-html5"></i>HTML</div>'
     + '<div class="icon-contain"><i class="col fab fa-css3-alt"></i>CSS</div>'
-    + '<div class="icon-contain"><i class="col fab fa-bootstrap"></i>Bootstrap</div>'
     + '<div class="icon-contain"><i class="col fab fa-js"></i>Javascript</div>'
-    + '<div class="icon-contain"><i class="col fab fa-git-square"></i>Git</div>'
-    + '<div class="icon-contain"><i class="col fab fa-python"></i>Python</div></div>';
+    + '<div class="icon-contain"><i class="col fab fa-git-alt"></i>Git</div>'
+    + '<div class="icon-contain"><i class="col fab"><img src="assets/images/python2.png"></i>Python</div></div>';
     mainSection.append(skills);
 }
 
