@@ -34,7 +34,8 @@ function projectFunction() {
     $(this).addClass('orange');
     mainSection.html('');
     heroSection.html('');
-    var projects = '<p>I have a couple projects</p>';
+    var projects = '<div class="containers row"><div id="weather-dashboard" class="proj module"><header><h1><a href="https://retro1967.github.io/weather-dashboard">Weather Dashboard</a></div>'
+    + '<div id="run-buddy" class="proj module"><header><h1><a href="https://retro1967.github.io/run-buddy">Run Buddy</a></div></div>';
     mainSection.append(projects);
 }
 
@@ -49,4 +50,8 @@ function educationFunction() {
     mainSection.append(education);
 }
 
-aboutFunction();
+function orange() {
+    $('.btn').addClass('orange');
+}
+
+projectFunction();
