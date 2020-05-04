@@ -19,11 +19,12 @@ function skillsFunction() {
     $('#skills').addClass('orange');
     mainSection.html('');
     heroSection.html('');
-    var skills = '<div class="container-fluid skillset"><div class="skill-icons"><div class="icon-contain"><i class="col fab fa-html5"></i>HTML</div>'
-    + '<div class="icon-contain"><i class="col fab fa-css3-alt"></i>CSS</div>'
-    + '<div class="icon-contain"><i class="col fab fa-js"></i>Javascript</div>'
-    + '<div class="icon-contain"><i class="col fab fa-git-alt"></i>Git</div>'
-    + '<div class="icon-contain"><i class="col fab"><img src="assets/images/python2.png"></i>Python</div></div>';
+    var skills = '<div class="container-fluid skillset"><div class="skill-icons">'
+    + '<div class="icon-contain"><i class="col fab fa-html5"><div class="bar-graph htmlf"></div></i><h5>HTML</h5></div>'
+    + '<div class="icon-contain"><i class="col fab fa-js"><div class="bar-graph jsf"></div></i><h5>Javascript</h5></div>'
+    + '<div class="icon-contain"><i class="col fab fa-git-alt"><div class="bar-graph gitf"></div></i><h5>Git</h5></div>'
+    + '<div class="icon-contain"><i class="col fab"><img src="assets/images/python2.png"><div class="bar-graph pythonf"></div></i><h5>Python</h5></div>'
+    + '</div></div>';
     mainSection.append(skills);
 }
 
@@ -53,4 +54,4 @@ function orange() {
     $('.btn').addClass('orange');
 }
 
-aboutFunction();
+skillsFunction();

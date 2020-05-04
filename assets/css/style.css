@@ -125,22 +125,26 @@ a:hover {
 }
 
 .fab img {
-    height: 37px;
-    width: auto;
+    height: auto;
+    width: 25px;
 }
 
 .fa-js {
     color: rgb(255, 235, 58);
 }
+
 .fa-html5 {
     color: rgb(255, 102, 0);
 }
+
 .fa-css3-alt {
     color: rgb(72, 72, 252);
 }
+
 .fa-git-alt {
     color: rgb(255, 102, 0);
 }
+
 .icon-contain .fab {
     font-size: 30px;
 }
@@ -148,10 +152,6 @@ a:hover {
 .icon-contain {
     padding: 0;
     padding-bottom: 10px;
-}
-
-.skillset {
-    justify-content: start;
 }
 
 .images {
@@ -192,10 +192,12 @@ a:hover {
 .dropdown-item {
     color: whitesmoke;
 }
+
 .orange {
     color: rgb(255, 102, 0);
     border-bottom: 1px solid rgb(255, 102, 0);
 }
+
 .container-fluid {
     padding: 0;
 }
@@ -277,4 +279,79 @@ a:hover {
 
 .last-name {
     color: rgb(255, 102, 0, 0.85);
+}
+
+.skillset {
+    text-align: left;
+}
+
+
+.bar-graph {
+    height: 20px;
+    background-color: rgb(255, 102, 0);
+    display: flex;
+    margin-left: 20px;
+    animation-name: animate-bar;
+    animation-duration: 3s;
+}
+
+.htmlf {
+    width: 50%;
+}
+
+.jsf {
+    width: 90%;
+}
+
+.gitf {
+    width: 70%;
+}
+
+.pythonf {
+    width: 40%
+}
+
+/* Moving Icons + Bar Graph Skill Section */
+.icon-contain {
+    position: relative;
+    animation-name: animate;
+    animation-duration: 2.5s;
+    margin: auto;
+}
+
+.icon-contain h5 {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.icon-contain::before {
+    text-align: center;
+}
+
+.icon-contain i {
+    text-align: left;
+    display: flex;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(50%,0)
+    }
+    15% {
+        transform: translate(53%,0);
+    }
+    100% {
+        transform: translate(0,0);
+        transform-origin: bottom left 60px;
+    }
+}
+.icon-contain::after {
+    text-align: left;
+    justify-content: start;
+}
+
+@keyframes animate-bar {
+    0% {
+        width: 0;
+    }
 }
