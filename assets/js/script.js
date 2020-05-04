@@ -54,4 +54,4 @@ function orange() {
     $('.btn').addClass('orange');
 }
 
-projectFunction();
+aboutFunction();
