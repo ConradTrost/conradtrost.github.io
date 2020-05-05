@@ -124,11 +124,6 @@ a:hover {
     color: rgb(255, 102, 0, 0.85);
 }
 
-.fab img {
-    height: auto;
-    width: 25px;
-}
-
 .fa-js {
     color: rgb(255, 235, 58);
 }
@@ -137,8 +132,8 @@ a:hover {
     color: rgb(255, 102, 0);
 }
 
-.fa-css3-alt {
-    color: rgb(72, 72, 252);
+.fa-python {
+    color: rgb(255, 235, 58);
 }
 
 .fa-git-alt {
@@ -275,6 +270,7 @@ a:hover {
 
 .btn {
       border: 1px solid rgb(255, 102, 0, 0.5);
+      color: rgb(255, 102, 0);
 }
 
 .last-name {
@@ -296,7 +292,7 @@ a:hover {
 }
 
 .htmlf {
-    width: 50%;
+    width: 70%;
 }
 
 .jsf {
@@ -304,11 +300,11 @@ a:hover {
 }
 
 .gitf {
-    width: 70%;
+    width: 60%;
 }
 
 .pythonf {
-    width: 40%
+    width: 50%
 }
 
 /* Moving Icons + Bar Graph Skill Section */
@@ -322,6 +318,8 @@ a:hover {
 .icon-contain h5 {
     font-size: 18px;
     padding-left: 15px;
+    color: black;
+    animation: 2.6s animate-skills;
 }
 
 .icon-contain::before {
@@ -353,5 +351,25 @@ a:hover {
 @keyframes animate-bar {
     0% {
         width: 0;
+    }
+}
+
+@keyframes animate-skills {
+    0% {
+        visibility: hidden;
+    }
+    95% {
+        visibility: hidden;
+    }
+    96% {
+        visibility: visible;
+        transform: scale(0.8)
+    }
+    98% {
+        transform: scale(1.2)
+    }
+
+    100% {
+        visibility: visible;
     }
 }
