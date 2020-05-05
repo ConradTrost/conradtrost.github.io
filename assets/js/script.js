@@ -22,10 +22,10 @@ function skillsFunction() {
     heroSection.html('');
     $('#main-btn').text('Skills');
     var skills = '<div class="container-fluid skillset"><div class="skill-icons">'
-    + '<div class="icon-contain"><i class="col fab fa-html5"><div class="bar-graph htmlf"><h5>Html/CSS</h5></div></i></div>'
-    + '<div class="icon-contain"><i class="col fab fa-js"><div class="bar-graph jsf"><h5>Javascript</h5></div></i></div>'
-    + '<div class="icon-contain"><i class="col fab fa-git-alt"><div class="bar-graph gitf"><h5>Git</h5></div></i></div>'
-    + '<div class="icon-contain"><i class="col fab fa-python"><div class="bar-graph pythonf"><h5>Python</h5></div></i></div>'
+    + '<div class="icon-contain one"><i class="col fab fa-html5"><div class="bar-graph htmlf"><h5>Html/CSS</h5></div></i></div>'
+    + '<div class="icon-contain two"><i class="col fab fa-js"><div class="bar-graph jsf"><h5>Javascript</h5></div></i></div>'
+    + '<div class="icon-contain three"><i class="col fab fa-git-alt"><div class="bar-graph gitf"><h5>Git</h5></div></i></div>'
+    + '<div class="icon-contain four"><i class="col fab fa-python"><div class="bar-graph pythonf"><h5>Python</h5></div></i></div>'
     + '</div></div>';
     mainSection.append(skills);
 }
@@ -48,11 +48,10 @@ function educationFunction() {
     $('#main-btn').text('Education')
     mainSection.html('');
     heroSection.html('');
-    var education = '<p>I am a current Aggie in my junior year at Texas A&M University studying Computer Engineering.</p>'
-    + "<p>I'm also currently a student at UT Austin Coding Bootcamp.</p>"
-    + '<p>My cumulative GPA is 3.6 and I am dropping out.</p>';
+    var education = '<p class="left rel">Current student at UT Austin Coding Bootcamp studying web development.</p>'
+    + '<p class="right rel">Current Aggie at Texas A&M University studying Computer Engineering.</p>'
+    + '<p class="rel full">Throughout my education I have always prioritized self-learning. I believed this was an important step in developing my skills to the <span class="orange-t">full</span> potential.</p>';
     mainSection.append(education);
 }
-
 
 aboutFunction();

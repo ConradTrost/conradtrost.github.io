@@ -147,6 +147,7 @@ a:hover {
 .icon-contain {
     padding: 0;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .images {
@@ -279,6 +280,7 @@ a:hover {
 
 .skillset {
     text-align: left;
+    margin-top: 30px;
 }
 
 
@@ -316,10 +318,26 @@ a:hover {
 }
 
 .icon-contain h5 {
-    font-size: 18px;
-    padding-left: 15px;
+    font-family: monospace;
+    font-size: 14px;
+    padding-left: 10px;
     color: black;
-    animation: 2.6s animate-skills;
+}
+
+.one h5 {
+    animation: 3s animate-skills;
+}
+
+.two h5 {
+    animation: 3.25s animate-skills;
+}
+
+.three h5 {
+    animation: 3.5s animate-skills;
+}
+
+.four h5 {
+    animation: 3.75s animate-skills;
 }
 
 .icon-contain::before {
@@ -358,18 +376,46 @@ a:hover {
     0% {
         visibility: hidden;
     }
-    95% {
+    93% {
         visibility: hidden;
     }
-    96% {
+    94% {
         visibility: visible;
         transform: scale(0.8)
     }
-    98% {
+    97% {
         transform: scale(1.2)
     }
 
     100% {
         visibility: visible;
     }
+}
+
+.section-holder .rel {
+    font-size: 16px;
+    clear: both;
+    margin: 30px 10px;
+}
+.section-holder .left {
+    text-align: left;
+    float: left;
+    width: 70%;
+}
+
+
+.section-holder .right {
+    text-align: right;
+    float: right;
+    width: 70%;
+}
+
+.full {
+    width: 95%;
+    float: left;
+    text-align: left;
+}
+
+.orange-t {
+    color: rgb(255, 102, 0);
 }
