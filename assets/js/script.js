@@ -24,7 +24,7 @@ function skillsFunction() {
     var skills = '<div class="container-fluid skillset"><div class="skill-icons">'
     + '<div class="icon-contain one"><i class="col fab fa-html5"><div class="bar-graph htmlf"><h5>Html/CSS</h5></div></i></div>'
     + '<div class="icon-contain two"><i class="col fab fa-js"><div class="bar-graph jsf"><h5>Javascript</h5></div></i></div>'
-    + '<div class="icon-contain three"><i class="col fab fa-git-alt"><div class="bar-graph gitf"><h5>Git</h5></div></i></div>'
+    + '<div class="icon-contain three"><i class="col fab fa-git-alt"><div class="bar-graph gitf"><h5>Git/Github</h5></div></i></div>'
     + '<div class="icon-contain four"><i class="col fab fa-python"><div class="bar-graph pythonf"><h5>Python</h5></div></i></div>'
     + '</div></div>';
     mainSection.append(skills);
@@ -50,7 +50,7 @@ function educationFunction() {
     heroSection.html('');
     var education = '<p class="left rel">Current student at UT Austin Coding Bootcamp studying web development.</p>'
     + '<p class="right rel">Current Aggie at Texas A&M University studying Computer Engineering.</p>'
-    + '<p class="rel full">Throughout my education I have always prioritized self-learning. I believed this was an important step in developing my skills to the <span class="orange-t">full</span> potential.</p>';
+    + '<p class="rel full">Throughout my education I have always prioritized self-learning. I believe this was an important step in developing my skills to the <span class="orange-t">full</span> potential.</p>';
     mainSection.append(education);
 }
 
