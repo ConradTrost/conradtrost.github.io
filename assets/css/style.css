@@ -23,6 +23,14 @@ header {
     padding-top: 20px;
 }
 
+header h2 {
+    font-weight: 130;
+    font-size: 18px;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+}
+
 /* Typewriter Effect on header */
 .typewriter h2 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -65,13 +73,7 @@ header h1 {
     line-height: 0.8;
 }
 
-header h2 {
-    font-weight: 130;
-    font-size: 18px;
-    text-align: center;
-    width: auto;
-    display: inline-block;
-}
+
 
 ul {
     list-style-type: none;
@@ -117,6 +119,7 @@ a:hover {
     padding-right: 60px;
     padding-top: 30px;
     padding-bottom: 30px;
+    justify-content: center;
 }
 
 .fab {
@@ -215,6 +218,18 @@ a:hover {
 
 #weather-dashboard {
     background: url("../images/weather.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    width: 340px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    padding: 0;
+}
+
+#neoo {
+    background: url("../images/nasa.png");
     background-repeat: no-repeat;
     background-size: contain; 
     width: 340px;

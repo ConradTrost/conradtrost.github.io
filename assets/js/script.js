@@ -37,7 +37,8 @@ function projectFunction() {
     $('#main-btn').text('Projects');
     mainSection.html('');
     heroSection.html('');
-    var projects = '<div class="containers row"><div id="weather-dashboard" class="proj module"><header><h1><a href="https://retro1967.github.io/weather-dashboard">Weather Dashboard</a></div>'
+    var projects = '<div class="containers row"><div id="neoo" class="proj module"><header><h1><a href="https://retro1967.github.io/NASA-Application">NEOO</a></div>'
+    + '<div id="weather-dashboard" class="proj module"><header><h1><a href="https://retro1967.github.io/weather-dashboard">Weather Dashboard</a></div>'
     + '<div id="run-buddy" class="proj module"><header><h1><a href="https://retro1967.github.io/run-buddy">Run Buddy</a></div></div>';
     mainSection.append(projects);
 }
