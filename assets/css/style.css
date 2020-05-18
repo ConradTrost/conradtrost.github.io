@@ -12,6 +12,7 @@ body {
     padding-top: 20px;
 }
 
+
 p {
     font-size: medium;
     padding: 0 30px;
@@ -65,7 +66,6 @@ header h2 {
 .top-img {
     display: none;
 }
-
 
 /* Typewriter Effect on header */
 .typewriter h2 {
@@ -147,7 +147,7 @@ ul {
     text-decoration: none;
 }
 
-a:hover {
+.subheader a:hover {
     color: rgb(255, 102, 0);
     border-bottom: 1px solid rgb(255, 102, 0);
     transition: ease all 1s;
@@ -203,18 +203,36 @@ a:hover {
     padding-top: 10px;
 }
 
-.images {
-    margin-bottom: 20px;
+.aboutLeft {
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+
+.aboutRight {
+    text-align: right;
+    width: 60%;
+    float: right;
+    padding: 20px 0;
 }
 
 #cami {
-    width: 66.5%;
+    width: 45%;
+    height: auto;
+    padding: 10px;
+    float: right;
+    border-radius: 7%;
+    margin-bottom: 20px;
 }
 
 #koda {
-    width: 33.2%;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 20px 0;
+    border-radius: 7%;
 }
-
 
 .btn {
     padding-left: 60px;
@@ -364,7 +382,7 @@ a:hover {
 }
 
 .gitf {
-    width: 60%;
+    width: 80%;
 }
 
 .pythonf {
@@ -498,6 +516,31 @@ a:hover {
     display: inline-block;
 }
 
+footer {
+    width: 100;
+    height: 100px;
+    background-color: #494949;
+    clear: both;
+    margin-top: 10px;
+}
+
+.footer-text {
+    color: black;
+    margin: auto;
+    padding: auto;
+    padding: 40px 0;
+}
+
+.footer-text a {
+    color: rgb(255, 102, 0);
+}
+
+.footer-text a:hover {
+    transition: 1s ease all;
+    color: rgb(8, 255, 255);
+    text-decoration: none;
+}
+
 @media only screen and (min-width: 768px) {
     body {
         padding-top: 0;
@@ -563,3 +606,7 @@ a:hover {
 /* Get skillset text completely vertically aligned */
 /* Create a footer to make section part full-height */
 /* Of course fix the typewriter animation */
+
+/* Fix underline of projects */
+/* Add Descriptions of languages used on projects */
+/* Add Github API */
