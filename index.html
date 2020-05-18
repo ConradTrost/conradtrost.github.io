@@ -16,22 +16,22 @@
         <div class="main-head typewriter container-fluid">
             <h1 class="centered">Conrad Trost</h1>
             <h2 class="centered1">Full Stack Web Developer</h2>
-            <div class="getin"><button class="button btn-lg hero-btn" onclick="contactFunction()">Get in Touch!</button></div>
+            <div class="getin"><a class="button btn-lg hero-btn" href="#navbar" onclick="contactFunction()">Get in Touch!</a></div>
         
 
         <div class="links">
             <ul class="inline">
-                <li><a href="https://github.com/retro1967"><i class="fab fa-github fa-xs"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/conrad-trost-635b591a0"><i class="fab fa-linkedin fa-xs"></i></a></li>
+                <li><a href="https://github.com/retro1967" target="_blank"><i class="fab fa-github fa-xs"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/conrad-trost-635b591a0" target="_blank"><i class="fab fa-linkedin fa-xs"></i></a></li>
             </ul>
         </div>
     </header>
 
-    <div class="row subheader container">
-        <a class="col-lg-2" id="about" href="#About" onclick=aboutFunction()>About</a>
-        <a class="col-lg-2" id="skills" href="#Skills" onclick=skillsFunction()>Skills</a>
-        <a class="col-lg-2" id="projects" href="#Projects" onclick=projectFunction()>Projects</a>
-        <a class="col-lg-2 contact" id="contact" href="#Contact" onclick=contactFunction()>Contact Me</a>
+    <div class="row subheader container" id="navbar">
+        <a class="col-lg-2" id="about" href="#navbar" onclick=aboutFunction()>About</a>
+        <a class="col-lg-2" id="skills" href="#navbar" onclick=skillsFunction()>Skills</a>
+        <a class="col-lg-2" id="projects" href="#navbar" onclick=projectFunction()>Projects</a>
+        <a class="col-lg-2 contact" id="contact" href="#navbar" onclick=contactFunction()>Contact Me</a>
     </div>
 
 
@@ -42,7 +42,7 @@
             <a class="dropdown-item" id="about" href="#About" onclick=aboutFunction()>About</a>
             <a class="dropdown-item" id="skills" href="#Skills" onclick=skillsFunction()>Skills</a>
             <a class="dropdown-item" id="projects" href="#Projects" onclick=projectFunction()>Projects</a>
-            <a class="dropdown-item contact" href="#Contact" onclick=contactFunction()>Contact Me</a>
+            <a class="dropdown-item contact" href="#contact-id" onclick=contactFunction()>Contact Me</a>
         </div>
     </div>
 
@@ -50,12 +50,12 @@
     <div class="container-fluid section-holder"></div>
 
     <footer>
-        <div class="left-footer"><p>&copy; 2020 Conrad Trost</p></div>
-        <h5 class="footer-text">Visit my <a href="https://github.com/retro1967">Github!</a></h5>
+        <!-- <div class="left-footer"><p>&copy; 2020 Conrad Trost</p></div>
+        <h5 class="footer-text">Visit my <a href="https://github.com/retro1967">Github!</a></h5> -->
         <div class="links footer-links">
             <ul class="inline">
-                <li><a href="https://github.com/retro1967"><i class="fab fa-github fa-xs"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/conrad-trost-635b591a0"><i class="fab fa-linkedin fa-xs"></i></a></li>
+                <li><a href="https://github.com/retro1967" target="_blank"><i class="fab fa-github fa-xs"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/conrad-trost-635b591a0" target="_blank"><i class="fab fa-linkedin fa-xs"></i></a></li>
             </ul>
         </div>
     </footer>

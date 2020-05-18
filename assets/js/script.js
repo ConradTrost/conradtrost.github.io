@@ -9,8 +9,7 @@ function aboutFunction() {
     $('#main-btn').text('About');
     var hero = '<div class="images container-fluid"><img src="assets/images/cami.jpg" alt="Camila" id="cami"><img src="assets/images/koda.jpg" alt="Koda" id="koda"></div>'
     var about = 
-    `<div class="container aboutContain
-    ">
+    `<div class="container aboutContain" id="about-id">
         <p class="aboutLeft">Howdy! I am a full stack web developer proudly from Dallas, Texas.<br></br>
         I have a wonderful girlfriend, Camila, and a gorgeous German Shepherd named Koda. I am a current third-year student at Texas A&M University studying Computer Engineering.<br></br>
         I am a tinkerer. I love to mess around with electronics and software as a way of understanding their complex structures and learning what I can create with it.<br></br>
@@ -33,7 +32,7 @@ function skillsFunction() {
     heroSection.html('');
     $('#main-btn').text('Skills');
     var skills = 
-    `<div class="container skillset">
+    `<div class="container skillset" id="skills-id">
         <div class="go-left">
             <div class="skill-icons">
                 <div class="icon-contain one"><i class="col fab fa-html5"><div class="bar-graph htmlf"><h5>Html/CSS</h5></div></i></div>
@@ -61,7 +60,7 @@ function projectFunction() {
     mainSection.html('');
     heroSection.html('');
     var projects = 
-    `<div class="containers row">
+    `<div class="containers row" id="project-id">
         <div id="neoo" class="proj module"><header><h1><a href="https://retro1967.github.io/NEOO">NEOO</a></div>
         <div id="weather-dashboard" class="proj module"><header><h1><a href="https://retro1967.github.io/weather-dashboard">Weather Dashboard</a></div>
         <div id="run-buddy" class="proj module"><header><h1><a href="https://retro1967.github.io/run-buddy">Run Buddy</a></div>
@@ -91,7 +90,7 @@ function contactFunction() {
     mainSection.html('');
     heroSection.html('');
     var contactSection = `
-    <div class="container contactContain">
+    <div class="container contactContain" id="contact-id">
         <h1>Shoot me an email!</h1>
         <p>I'd be happy to respond.</p>
         <form>
