@@ -203,36 +203,6 @@ ul {
     padding-top: 10px;
 }
 
-.aboutLeft {
-    text-align: left;
-    width: 50%;
-    float: left;
-}
-
-.aboutRight {
-    text-align: right;
-    width: 60%;
-    float: right;
-    padding: 20px 0;
-}
-
-#cami {
-    width: 45%;
-    height: auto;
-    padding: 10px;
-    float: right;
-    border-radius: 7%;
-    margin-bottom: 20px;
-}
-
-#koda {
-    padding: 10px;
-    width: 30%;
-    height: auto;
-    float: left;
-    margin: 20px 0;
-    border-radius: 7%;
-}
 
 .btn {
     padding-left: 60px;
@@ -258,6 +228,26 @@ ul {
 
 .container-fluid {
     padding: 0;
+}
+
+#cami {
+    width: 50%;
+    height: auto;
+    padding: 10px 0;
+    border-radius: 7%;
+    margin-bottom: 20px;
+}
+
+#koda {
+    padding: 10px 5px;
+    width: 30%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 7%;
+}
+
+.aboutContain {
+    margin-bottom: 40px;
 }
 
 
@@ -599,6 +589,36 @@ footer {
     }
     .dropdown {
         display: none;
+    }
+    .aboutLeft {
+        text-align: left;
+        width: 50%;
+        float: left;
+    }
+    
+    .aboutRight {
+        text-align: right;
+        width: 60%;
+        float: right;
+        padding: 20px 0;
+    }
+    
+    #cami {
+        width: 45%;
+        height: auto;
+        padding: 10px;
+        float: right;
+        border-radius: 7%;
+        margin-bottom: 20px;
+    }
+    
+    #koda {
+        padding: 10px;
+        width: 30%;
+        height: auto;
+        float: left;
+        margin: 20px 0;
+        border-radius: 7%;
     }
 }
 

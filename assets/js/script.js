@@ -9,7 +9,8 @@ function aboutFunction() {
     $('#main-btn').text('About');
     var hero = '<div class="images container-fluid"><img src="assets/images/cami.jpg" alt="Camila" id="cami"><img src="assets/images/koda.jpg" alt="Koda" id="koda"></div>'
     var about = 
-    `<div class="container">
+    `<div class="container aboutContain
+    ">
         <p class="aboutLeft">Howdy! I am a full stack web developer proudly from Dallas, Texas.<br></br>
         I have a wonderful girlfriend, Camila, and a gorgeous German Shepherd named Koda. I am a current third-year student at Texas A&M University studying Computer Engineering.<br></br>
         I am a tinkerer. I love to mess around with electronics and software as a way of understanding their complex structures and learning what I can create with it.<br></br>
@@ -85,7 +86,7 @@ function projectFunction() {
 
 function contactFunction() {
     $('.orange').removeClass('orange');
-    $('#contact').addClass('orange');
+    $('.contact').addClass('orange');
     $('#main-btn').text('Education')
     mainSection.html('');
     heroSection.html('');
