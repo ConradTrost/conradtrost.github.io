@@ -91,9 +91,15 @@ function contactFunction() {
     mainSection.html('');
     heroSection.html('');
     var contactSection = `
-    <div class="container">
+    <div class="container contactContain">
         <h1>Shoot me an email!</h1>
         <p>I'd be happy to respond.</p>
+        <form>
+            <input class="form-control" type="text" placeholder="Your Name">
+            <input class="form-control" type="text" placeholder="Your Email"><br>
+            <textarea class="contact-content form-control" placeholder="Text Content..." rows="8"></textarea>
+            <button type="button" class="btn">Submit</button>
+        </form>
     </div>
     `;
     mainSection.append(contactSection);
@@ -105,3 +111,5 @@ aboutFunction();
 // Remove project transparent thing and change it to hover w/ languages declared.
 // Make about section mobile responsive please.
 // Contact section using Node.js
+
+// Add "Not bored yet? Load more about section"
