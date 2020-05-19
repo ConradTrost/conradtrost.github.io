@@ -66,20 +66,21 @@ header h2 {
 }
 
 /* Typewriter Effect on header */
-.typewriter h2 {
+.typewriter {
+    width: 23em;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .10em solid rgb(255, 102, 0); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .2em; /* Adjust as needed */
+    letter-spacing: .4em; /* Adjust as needed */
     animation: 
-      typing 1.5s steps(20, end),
+      typing 2.5s steps(40, end),
       blink-caret .85s step-end infinite;
 }
   /* The typing effect */
 @keyframes typing {
     from { width: 0 }
-    to { width: 76% }
+    to { width: 23em }
 }
   /* The typewriter cursor effect */
 @keyframes blink-caret {
@@ -151,6 +152,7 @@ ul {
     color: rgb(255, 102, 0);
     border-bottom: 1px solid rgb(255, 102, 0);
     transition: ease all 1s;
+    transform: scale(1.05);
 }
 
 .col-lg-2 {
@@ -203,6 +205,11 @@ ul {
     padding-top: 10px;
 }
 
+.hover-icon:hover {
+    transition: ease all 0.5s;
+    transform: scale(1.1);
+}
+
 
 .btn {
     padding-left: 60px;
@@ -244,6 +251,7 @@ ul {
     height: auto;
     margin: 20px 0;
     border-radius: 7%;
+    clear: both;
 }
 
 .aboutContain {
@@ -253,41 +261,52 @@ ul {
 
 
 /* Project text over image */
-#run-buddy {
-    background: url("../images/run.png");
-    background-repeat: no-repeat;
-    background-size: contain; 
-    width: 340px;
-    height: 180px;
-    position: relative;
-    overflow: hidden;
-    margin: 20px;
-    padding: 0;
+
+.image {
+    opacity: 0.4;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
-#weather-dashboard {
-    background: url("../images/weather.png");
-    background-repeat: no-repeat;
-    background-size: contain; 
-    width: 340px;
-    height: 180px;
-    position: relative;
-    overflow: hidden;
-    margin: 20px;
-    padding: 0;
+.middle {
+    transition: .5s ease;
+    width: 100%;
+    color: white;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-#neoo {
-    background: url("../images/nasa.png");
-    background-repeat: no-repeat;
-    background-size: contain; 
+.proj:hover .image {
+    opacity: 0.4;
+}
+
+.proj:hover .middle{
+    opacity: 1;
+}
+
+.proj {
     width: 340px;
-    height: 180px;
+    height: auto;
     position: relative;
     overflow: hidden;
     margin: 20px;
     padding: 0;
+    border: 1px solid white;
+    border-radius: 2%;
 }
+
+.rem-a {
+    margin-bottom: 20px;
+}
+/* End project section */
 
 .module header {
     position: absolute;
@@ -405,6 +424,7 @@ ul {
     font-size: 14px;
     padding-left: 10px;
     color: black;
+    vertical-align: middle;
 }
 
 .one h5 {
@@ -509,6 +529,7 @@ ul {
 
 .orange-t {
     color: rgb(255, 102, 0);
+    text-decoration: none;
 }
 
 .containers {
@@ -519,7 +540,7 @@ footer {
     width: 100%;
     height: auto;
     min-height: 60px;
-    background-color: #494949;
+    background-color: #463333;
   
     margin-top: 10px;
     margin-bottom: 0;
@@ -534,11 +555,11 @@ footer {
     justify-content: center;
 }
 
-.footer-text a {
+.rem-a a {
     color: rgb(255, 102, 0);
 }
 
-.footer-text a:hover {
+.rem-a a:hover {
     transition: 1s ease all;
     color: rgb(8, 255, 255);
     text-decoration: none;
@@ -628,7 +649,7 @@ footer {
     }
     
     .aboutRight {
-        text-align: right;
+        text-align: left;
         width: 60%;
         float: right;
         padding: 20px 0;
@@ -650,6 +671,12 @@ footer {
         float: left;
         margin: 20px 0;
         border-radius: 7%;
+    }
+    .image{
+        opacity: 1;
+    }
+    .middle{
+        opacity: 0;
     }
 }
 
