@@ -129,7 +129,7 @@ function contactFunction() {
     mainSection.append(contactSection);
 }
 
-projectFunction();
+aboutFunction();
 
 // Remove heroSection??
 // Remove project transparent thing and change it to hover w/ languages declared.
