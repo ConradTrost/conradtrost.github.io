@@ -37,15 +37,16 @@ function skillsFunction() {
             <div class="skill-icons">
                 <div class="icon-contain one"><i class="col fab fa-html5"><div class="bar-graph htmlf"><h5>Html/CSS</h5></div></i></div>
                 <div class="icon-contain two"><i class="col fab fa-js"><div class="bar-graph jsf"><h5>Javascript</h5></div></i></div>
-                <div class="icon-contain three"><i class="col fab fa-git-alt"><div class="bar-graph gitf"><h5>Git/Github</h5></div></i></div>
-                <div class="icon-contain four"><i class="col fab fa-python"><div class="bar-graph pythonf"><h5>Python</h5></div></i></div>
+                <div class="icon-contain four"><i class="col fab fa-node-js"><div class="bar-graph expressf"><h5>Express.js</h5></div></i></div>
                 <div class="icon-contain five"><i class="col fab fa-node-js"><div class="bar-graph nodef"><h5>Node.js</h5></div></i></div>
+                <div class="icon-contain three"><i class="col fab fa-git-alt"><div class="bar-graph gitf"><h5>Git/Github</h5></div></i></div>
             </div>
         </div>
         <div class="skills-text">
             <p>Full-stack web developer specialized in <span class="orange-t">Javascript</span> and <span class="orange-t">Node.js</span></p>
             <p>Experienced front-end designer. I use <span class="orange-t">Figma</span> to create prototypes before mocking the design in CSS and HTML. I have experience using <span class="orange-t">Bootstrap</span>, although I prefer minimal framework usage.</p>
-            <p>Back-end architect with an established understanding of <span class="orange-t">Node.js</span> and server-side APIs. My main focus is quick loading times and minimal data usage.</p>
+            <p>Back-end architect with an established understanding of <span class="orange-t">Node.js</span>, <span class="orange-t">Express.js</span>, <span class="orange-t">SQL</span> and server-side APIs. My main focus is quick loading times and minimal data usage.</p>
+
             <p>My main skill trait is my ability to learn quickly, efficiently, and well. I have always been a self-learner and I am proud to say that I have a developed ability to grasp new concepts and retain new information.</p>
         </div>
     </div>`;
@@ -63,6 +64,16 @@ function projectFunction() {
     `
     <h2 class="rem-a">Head to my <a href="https://github.com/retro1967">Github</a> to see everything I've been working on!</h2>
     <div class="containers row" id="project-id">
+
+        <div class="proj-container proj">
+            <a href="https://retro1967.github.io/motor-services">
+                <img class="image" src="./assets/images/motor-services.png">
+                <div class="middle"><h1>Motor Services</h1>
+                    <p>SQL, Sequelize, Handlebars template, Express</p>
+                </div>
+            </a>
+        </div>
+
         <div class="proj-container proj">
             <a href="https://retro1967.github.io/NEOO">
                 <img class="image" src="./assets/images/nasa.png">
@@ -89,6 +100,7 @@ function projectFunction() {
                 </div>
             </a>
         </div>
+
     </div>`;
     mainSection.append(projects);
 }
@@ -111,19 +123,26 @@ function projectFunction() {
 function contactFunction() {
     $('.orange').removeClass('orange');
     $('.contact').addClass('orange');
-    $('#main-btn').text('Education')
+    $('#main-btn').text('Contact')
     mainSection.html('');
     heroSection.html('');
     var contactSection = `
     <div class="container contactContain" id="contact-id">
         <h1>Shoot me an email!</h1>
         <p>I'd be happy to respond.</p>
-        <form>
+        <form id="contact-form">
+            <input class="form-control" id="disabledInput" type="text" placeholder="To: conrad@trost.dev" disabled>
             <input class="form-control" type="text" placeholder="Your Name">
             <input class="form-control" type="text" placeholder="Your Email"><br>
             <textarea class="contact-content form-control" placeholder="Text Content..." rows="8"></textarea>
             <button type="button" class="btn">Submit</button>
         </form>
+
+        <div>
+            <h3>More Options!</h3>
+            <p>Email me directly at <a href="mailto:conrad@trost.dev" target="_blank" class="orange-t">conrad@trost.dev</a></p>
+            <p>Call or text me at <a href="tel:954-826-1996" class="orange-t">(954)-826-1996</a></p>
+        </div>
     </div>
     `;
     mainSection.append(contactSection);
