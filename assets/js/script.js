@@ -37,9 +37,9 @@ function skillsFunction() {
             <div class="skill-icons">
                 <div class="icon-contain one"><i class="col fab fa-html5"><div class="bar-graph htmlf"><h5>Html/CSS</h5></div></i></div>
                 <div class="icon-contain two"><i class="col fab fa-js"><div class="bar-graph jsf"><h5>Javascript</h5></div></i></div>
-                <div class="icon-contain four"><i class="col fab fa-node-js"><div class="bar-graph expressf"><h5>Express.js</h5></div></i></div>
-                <div class="icon-contain five"><i class="col fab fa-node-js"><div class="bar-graph nodef"><h5>Node.js</h5></div></i></div>
-                <div class="icon-contain three"><i class="col fab fa-git-alt"><div class="bar-graph gitf"><h5>Git/Github</h5></div></i></div>
+                <div class="icon-contain three"><i class="col fab fa-node-js"><div class="bar-graph expressf"><h5>Express.js</h5></div></i></div>
+                <div class="icon-contain four"><i class="col fab fa-node-js"><div class="bar-graph nodef"><h5>Node.js</h5></div></i></div>
+                <div class="icon-contain five"><i class="col fab fa-git-alt"><div class="bar-graph gitf"><h5>Git/Github</h5></div></i></div>
             </div>
         </div>
         <div class="skills-text">
@@ -66,7 +66,7 @@ function projectFunction() {
     <div class="containers row" id="project-id">
 
         <div class="proj-container proj">
-            <a href="https://retro1967.github.io/motor-services">
+            <a href="https://github.com/retro1967/motor-services" target="_blank">
                 <img class="image" src="./assets/images/motor-services.png">
                 <div class="middle"><h1>Motor Services</h1>
                     <p>SQL, Sequelize, Handlebars template, Express</p>
@@ -75,7 +75,7 @@ function projectFunction() {
         </div>
 
         <div class="proj-container proj">
-            <a href="https://retro1967.github.io/NEOO">
+            <a href="https://github.com/retro1967/NEOO" target="_blank">
                 <img class="image" src="./assets/images/nasa.png">
                 <div class="middle"><h1>NEOO</h1>
                     <p>Third-party APIs and Foundation CSS framework</p>
@@ -84,7 +84,7 @@ function projectFunction() {
         </div>
 
         <div class="proj-container proj">
-            <a href="https://retro1967.github.io/weather-dashboard">
+            <a href="https://github.com/retro1967/weather-dashboard" target="_blank">
                 <img class="image" src="./assets/images/weather.png">
                 <div class="middle"><h1>Weather Dashboard</h1>
                     <p>OpenWeatherMap API</p>
@@ -93,7 +93,7 @@ function projectFunction() {
         </div>
 
         <div class="proj-container proj">
-            <a href="https://retro1967.github.io/run-buddy">
+            <a href="https://github.com/retro1967/run-body" target="_blank">
                 <img class="image" src="./assets/images/run.png">
                 <div class="middle"><h1>Run Buddy</h1>
                     <p>Static HTML and CSS</p>
