@@ -6,7 +6,7 @@
   ## Description
   #### A personal portfolio featuring React.
 
-  ![Screenshot](/porfolio-screenshot.jpg)
+  ![Screenshot](porfolio-screenshot.jpg)
 
   ### Table of Contents:
 
