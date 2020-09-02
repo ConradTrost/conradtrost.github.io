@@ -7,7 +7,7 @@
   #### A personal portfolio featuring React.
 
 <p align="center">
-  <img src="./portfolio-screenshot.png" width="350" title="hover text">
+  <img src="./portfolio-screenshot.png" width="900" title="hover text">
 </p>
 
   ### Table of Contents:
