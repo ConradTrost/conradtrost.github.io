@@ -23,6 +23,11 @@ export class ContactPage extends Component {
                         </div>
                     </Col>
                 </Row>
+                <Col className="contact-column">
+                    <p className="lead">Don't like buttons?</p>
+                    <p className="lead">My email is <span className="contact-links">conrad@trost.dev</span>.</p>
+                    <p className="lead">You can also reach me by phone at <span className="contact-links">(954)-826-1996</span>.</p>
+                </Col>
                 <Footer />
                 </Container>
             </div>

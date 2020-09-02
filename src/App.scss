@@ -1,5 +1,6 @@
 $unselected: rgb(94, 94, 94);
 $selected: rgb(58, 58, 58);
+$links: rgb(90, 121, 223);
 
 .main {
   // background-color: #282c34;
@@ -147,6 +148,22 @@ $selected: rgb(58, 58, 58);
   margin-bottom: 30px;
 }
 
+.contact-column {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.contact-column p {
+  margin: auto;
+  text-align: center;
+}
+
+.contact-links {
+  color: $links;
+  font-weight: 800;
+}
+
 .project-header {
   font-weight: 200;
   text-align: center;
@@ -231,7 +248,7 @@ $selected: rgb(58, 58, 58);
 }
 
 .fab {
-  color: rgb(90, 121, 223);
+  color: $links;
   font-size: 28px;
   padding: 10px;
 }
