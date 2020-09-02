@@ -39,9 +39,9 @@ class Projects extends Component {
                     <Col className="display-3 project-header">Projects</Col>
                 </Row>
                 <Row className="proj-row">
-                    <CardColumns lg='4' md='6' sm='12'>
+                    <CardColumns className="projects-cols" >
                     {projects.map(thing => (
-                        <Col className="projects-column">
+                        <Col className="projects-column" lg={12}>
                             <Card className="proj-col">
                                 <Card.Img className="proj-img" src={thing.image} alt={thing.title} variant="top" />
                                 <Card.Body>

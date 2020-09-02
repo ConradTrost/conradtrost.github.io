@@ -19,8 +19,8 @@ class Navigation extends React.Component {
 
   render() {
     return (
-        <Container>
-          <Navbar expand="lg" fixed="top" className="nav-bar ml-auto" bg="transparent" >
+        <>
+          <Navbar expand="lg" fixed="top" className="nav-bar" bg="transparent" >
           <Navbar.Brand href="/"><Lottie className="lottie" options={defaultOptions3} height={50} width={50} /><span className="trost-nav">Conrad Trost</span></Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
@@ -34,7 +34,7 @@ class Navigation extends React.Component {
                 </Nav>
             </Navbar.Collapse>
           </Navbar>
-          </Container>
+          </>
     );
   }
 }

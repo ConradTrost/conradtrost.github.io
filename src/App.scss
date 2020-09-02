@@ -88,7 +88,8 @@ $selected: rgb(58, 58, 58);
 }
 
 .show {
-  background-color:white;
+  background-color:rgba(255, 255, 255, 0.836);
+  border-radius: 8px;
 }
 
 .show div a {
@@ -97,14 +98,21 @@ $selected: rgb(58, 58, 58);
 
 .collapsing {
   text-align: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.836);
 }
+
 
 .lottie1 {
   width: 100%;
   position: absolute;
   bottom: 0;
 }
+
+.container {
+  margin: 0;
+  height: auto;
+}
+
 
 .project-container {
   min-height: 100vh;
@@ -145,15 +153,6 @@ $selected: rgb(58, 58, 58);
   margin-bottom: 60px;
 }
 
-.project-box {
-  height: 380px;
-  width: 380px;
-  margin: 40px 0;
-}
-
-.featured {
-  height: 320px;
-}
 
 .project-img {
   object-fit: contain;
@@ -163,18 +162,6 @@ $selected: rgb(58, 58, 58);
   border-radius: 5px;
 }
 
-.project-box h4 {
-  position: absolute;
-  left: 50%;
-  bottom: 50%;
-  font-size: 40px;
-  color: white;
-}
-
-.project-img:hover {
-  cursor: pointer;
-  animation: project-animation 0.5s forwards;
-}
 
 .contact-descript {
   font-weight: 200;
@@ -190,17 +177,6 @@ $selected: rgb(58, 58, 58);
 .resume {
   width: 900px;
   height: 88vh;
-}
-
-@keyframes project-animation {
-  0% {
-    transform: scale(1);
-    filter: brightness(100%)
-  }
-  100% {
-    transform: scale(1.01);
-    filter: brightness(70%);
-  }
 }
 
 .btn-holders {
@@ -315,6 +291,40 @@ $selected: rgb(58, 58, 58);
   border-bottom: 1px solid $selected;
 }
 
+@media only screen and (max-width: 500px) {
+  .contact-header {
+    font-size: 34px;
+  }
+  .proj-col {
+    max-width: 95%;
+    min-height: 0;
+    margin: auto;
+  }
+  .projects-cols {
+    max-width: 100%;
+  }
+  .proj-img {
+    height: 200px;
+  }
+  .project-header {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .descript-col p {
+    text-align: center;
+    margin: auto;
+    padding: 0 10px;
+  }
+  .descript-col {
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  .display-4 {
+    font-size: 22px;
+  }
+}
+
+
 @media only screen and (max-width: 1080px) {
   .home-right {
     display: none;
@@ -334,7 +344,7 @@ $selected: rgb(58, 58, 58);
   .display-4 {
     font-size: 34px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 200;
   }
   .col-md-3 {
     width: 60%;
@@ -356,5 +366,9 @@ $selected: rgb(58, 58, 58);
   .inner-left h1 {
     margin: auto;
     text-align: center;
+  }
+  .resume {
+    max-width: 100%;
+    margin-top: 50px;
   }
 }
