@@ -6,7 +6,9 @@
   ## Description
   #### A personal portfolio featuring React.
 
-  ![Screenshot](porfolio-screenshot.png)
+<p align="center">
+  <img src="./portfolio-screenshot.png" width="900" title="hover text">
+</p>
 
   ### Table of Contents:
 
