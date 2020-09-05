@@ -12,7 +12,7 @@ class Projects extends Component {
         const projects = [
             {
                 name: 'Remote Social',
-                link: 'https://github.com/clstanton/remote-social/tree/develop',
+                link: 'https://github.com/retro1967/remote-social',
                 description: 'Users can search for movies and save them to their watchlist. Demonstrates complete use of the MERN Stack.',
                 technologies: 'React, MongoDB, GraphQL, Apollo, and Bootstrap.',
                 image: remote
