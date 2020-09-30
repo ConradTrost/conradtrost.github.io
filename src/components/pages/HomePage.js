@@ -7,6 +7,7 @@ import { Col, Row, Button } from 'react-bootstrap';
 import FadeIn from "react-fade-in";
 
 // Get compressed to load first?
+import * as webp from '../../assets/images/placeholder.webp';
 import * as placeholder from '../../assets/images/placeholder.jpg';
 import * as scrollData from '../../scrollLottie.json';
 
@@ -44,7 +45,12 @@ export class HomePage extends Component {
                     </Col>
                     <Col md={5} className="home-right">
                         <FadeIn delay="200">
-                            <img src={placeholder} alt={placeholder} />
+                        <picture>
+                            <source srcSet={require('../../assets/images/placeholder.webp')} type="image/webp" />
+                            <source srcSet={require('../../assets/images/placeholder.jpg')} type="image/jpeg" />
+                            <img src={placeholder} alt="Placeholder image" />
+
+                        </picture>
                         </FadeIn>
                     </Col>
                 </Row>
