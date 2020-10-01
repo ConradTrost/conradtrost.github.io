@@ -48,8 +48,7 @@ export class HomePage extends Component {
                         <picture>
                             <source srcSet={require('../../assets/images/placeholder.webp')} type="image/webp" />
                             <source srcSet={require('../../assets/images/placeholder.jpg')} type="image/jpeg" />
-                            <img src={placeholder} alt="Placeholder image" />
-
+                            <img src={placeholder} alt="Placeholder" />
                         </picture>
                         </FadeIn>
                     </Col>
