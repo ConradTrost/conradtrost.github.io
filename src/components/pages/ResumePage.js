@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import Navbar from '../Navbar';
 import Footer from '../Footer';
-import * as resume from '../../assets/Resume_08_2020.pdf';
+import * as resume from '../../assets/Resume-09-2020.pdf';
 
 export class ResumePage extends Component {
     render() {
