@@ -308,6 +308,15 @@ $links: rgb(90, 121, 223);
   border-bottom: 1px solid $selected;
 }
 
+/* Resume Section */
+.resume-contain h3 {
+  color: #5A79DF;
+}
+
+.resume-contain .row {
+  margin-top: 40px;
+}
+
 @media only screen and (max-width: 500px) {
   .contact-header {
     font-size: 34px;
