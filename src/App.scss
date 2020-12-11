@@ -2,14 +2,29 @@ $unselected: rgb(94, 94, 94);
 $selected: rgb(58, 58, 58);
 $links: rgb(90, 121, 223);
 
+
+
 .main {
-  // background-color: #282c34;
+  background-color: #f8f1e2;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.display-1 {
+  font-size: 84px;
+}
+
+.lead {
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.h5 a{
+  font-size: 34px;
 }
 
 .loading-header {
@@ -252,6 +267,8 @@ $links: rgb(90, 121, 223);
   font-size: 28px;
   padding: 10px;
 }
+
+// footer buttons
 
 .about-container {
   margin-top: 10vh;
