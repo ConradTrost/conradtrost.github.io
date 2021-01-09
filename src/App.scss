@@ -2,7 +2,18 @@ $unselected: rgb(94, 94, 94);
 $selected: rgb(58, 58, 58);
 $links: rgb(90, 121, 223);
 
-
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 
 .main {
   background-color: #f8f1e2;
