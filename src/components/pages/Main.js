@@ -7,7 +7,7 @@ import HomePage from './HomePage';
 function Main() {
   return (
     <>
-        <Navigation />
+        <Navigation className="homeNav" />
         <HomePage />
     </>
   );

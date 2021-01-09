@@ -34,7 +34,7 @@ export default class Loading extends React.Component {
     super(props);
     this.state = {
         loading: undefined,
-        sdone: undefined
+        done: undefined
     };
   }
 

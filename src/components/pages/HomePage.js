@@ -7,9 +7,11 @@ import { Col, Row, Button } from 'react-bootstrap';
 import FadeIn from "react-fade-in";
 
 // Get compressed to load first?
-import * as webp from '../../assets/images/placeholder.webp';
-import * as placeholder from '../../assets/images/placeholder.jpg';
+// import * as webp from '../../assets/images/placeholder.webp';
+// import * as placeholder from '../../assets/images/placeholder.jpg';
 import * as scrollData from '../../scrollLottie.json';
+import * as headShot from '../../assets/images/editedheadshot2.jpg';
+import * as webp from '../../assets/images/editedheadshot2.webp';
 
 const defaultOptions4 = {
     loop: true,
@@ -22,6 +24,7 @@ const defaultOptions4 = {
 
 export class HomePage extends Component {
     render() {
+
         return (
             <div className="homeContain">
                 <Row>
@@ -46,9 +49,9 @@ export class HomePage extends Component {
                     <Col md={5} className="home-right">
                         <FadeIn delay="200">
                         <picture>
-                            <source srcSet={require('../../assets/images/placeholder.webp')} type="image/webp" />
-                            <source srcSet={require('../../assets/images/placeholder.jpg')} type="image/jpeg" />
-                            <img src={placeholder} alt="Placeholder" />
+                            <source srcSet={require('../../assets/images/editedheadshot2.webp')} type="image/webp" />
+                            <source srcSet={require('../../assets/images/editedheadshot2.jpg')} type="image/jpeg" />
+                            <img src={headShot} alt="Headshot" />
                         </picture>
                         </FadeIn>
                     </Col>
