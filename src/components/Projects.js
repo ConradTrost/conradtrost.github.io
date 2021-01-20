@@ -39,6 +39,8 @@ class Projects extends Component {
             }
         ];
 
+        const i = 0;
+
         return (
             <Container className="project-container" fluid>
                 <Row className="project-row">
@@ -47,7 +49,7 @@ class Projects extends Component {
                 <Row className="proj-row">
                     <CardColumns className="projects-cols" >
                     {projects.map(thing => (
-                        <Col className="projects-column" lg={12}>
+                        <Col className="projects-column" md='auto'>
                             <Card className="proj-col">
                                 <picture >
                                     <source className="card-img-top proj-img" srcSet={thing.webp} type="image/webp" />
@@ -58,10 +60,10 @@ class Projects extends Component {
                                 <Card.Body>
                                 <Card.Title className="proj-title"><a href={thing.link} rel="noopener noreferrer" target="_blank" className="display-4">{thing.name}</a></Card.Title>
                                 <Card.Text className="lead">
-                                    <p className="lead">{thing.description}</p>
+                                    {thing.description}
                                 </Card.Text>
                                 <Card.Text className="lead">
-                                <p className="lead">Features: <span className="bolded">{thing.technologies}</span></p>
+                                Features: <span className="bolded">{thing.technologies}</span>
                                 </Card.Text>
 
                                 </Card.Body>

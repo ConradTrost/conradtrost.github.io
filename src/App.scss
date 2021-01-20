@@ -1,11 +1,19 @@
 $unselected: rgb(94, 94, 94);
 $selected: rgb(58, 58, 58);
 $links: rgb(90, 121, 223);
+$important: rgb(90, 121, 223);
+$background: #f8f1e2;
 
 html {
     overflow: scroll;
     overflow-x: hidden;
+    background-color: $background !important;
 }
+
+html #root {
+  background-color: $background;
+}
+
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
@@ -15,8 +23,9 @@ html {
     background: #FF0000;
 }
 
+
 .main {
-  background-color: #f8f1e2;
+  background-color: $background;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,6 +41,11 @@ html {
 .lead {
   font-family: Roboto;
   font-size: 16px;
+}
+
+.impt_txt {
+  color: $important;
+  font-weight: 600;
 }
 
 .h5 a{
@@ -120,7 +134,7 @@ html {
 }
 
 .main .navbar-light .navbar-nav .nav-link:hover {
-  color: #5A79DF;
+  color: $links;
 }
 
 .show {
@@ -153,10 +167,12 @@ html {
 .project-container {
   min-height: 100vh;
   padding-top: 5vh;
-  background-color: rgb(196, 197, 219);
+  background-color: $background;
   width: 100%;
   margin: 0;
 }
+
+
 
 .contact-header {
   margin-top: 60px;
@@ -243,7 +259,7 @@ html {
 
 .skill-container {
   padding-top: 5vh;
-  background-color: rgb(196, 197, 219);
+  background-color: $background;
   width: 100%;
   margin: 0;
 }
@@ -323,7 +339,7 @@ html {
   min-height: 600px;
   border: 1px solid $unselected;
   margin: auto;
-  background: rgba(255, 255, 255, 0.479);
+  background: $background;
 }
 
 .proj-title {

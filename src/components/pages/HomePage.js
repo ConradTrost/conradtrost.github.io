@@ -7,8 +7,6 @@ import { Col, Row, Button } from 'react-bootstrap';
 import FadeIn from "react-fade-in";
 
 // Get compressed to load first?
-// import * as webp from '../../assets/images/placeholder.webp';
-// import * as placeholder from '../../assets/images/placeholder.jpg';
 import * as scrollData from '../../scrollLottie.json';
 import * as headShot from '../../assets/images/editedheadshot2.jpg';
 import * as webp from '../../assets/images/editedheadshot2.webp';
@@ -38,7 +36,7 @@ export class HomePage extends Component {
                                 <h1 className="display-1">I'm Conrad.<br></br> Nice to meet you.</h1>
                                 <div class="subtext">
                                     <p className="lead">I am a full-stack web developer based in Dallas, Texas. 
-                                    I utilize my experience in <span className="impt_txt">marketing</span> and <span className="impt_txt">computer engineering</span> to create efficiently-coded, engaging websites.</p>
+                                    <br />I utilize my experience in <span className="impt_txt">marketing</span> and <span className="impt_txt">computer engineering</span> to create efficiently-coded, engaging websites.</p>
                                 </div>
                             </FadeIn>
                         </div>
