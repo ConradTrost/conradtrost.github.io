@@ -205,6 +205,12 @@ html #root {
   width: 50%;
 }
 
+@media (max-width: 670px) {
+  .form-Container {
+    width: 100%;
+  }
+}
+
 .contact-column {
   width: 100%;
   justify-content: center;
