@@ -49,7 +49,6 @@ class Projects extends Component {
                 <Row className="proj-row">
                     <CardColumns className="projects-cols" >
                     {projects.map(thing => (
-                        <Col className="projects-column" md='auto'>
                             <Card className="proj-col">
                                 <picture >
                                     <source className="card-img-top proj-img" srcSet={thing.webp} type="image/webp" />
@@ -68,8 +67,6 @@ class Projects extends Component {
 
                                 </Card.Body>
                             </Card>
-                        </Col>
-                        
                     ))}
                     </CardColumns>
                 </Row>

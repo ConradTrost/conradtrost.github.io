@@ -336,11 +336,22 @@ html #root {
 }
 
 .proj-col {
-  width: 500px;
   min-height: 600px;
   border: 1px solid $unselected;
   margin: auto;
   background: $background;
+}
+
+@media (max-width: 1076px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-columns {
+    column-count: 1;
+  }
 }
 
 .proj-title {
@@ -365,10 +376,27 @@ html #root {
 /* Resume Section */
 .resume-contain h3 {
   color: #5A79DF;
+  margin-top: 20px;
 }
 
-.resume-contain .row {
-  margin-top: 40px;
+.resume-contain {
+  padding-top: 20px;
+}
+
+.resume-skills {
+  display: none;
+}
+
+.resume-contain .header {
+  padding: 15px;
+}
+
+.resume-contain p {
+  margin-bottom: 5px;
+}
+
+.resume-freelance {
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -383,9 +411,12 @@ html #root {
     min-height: 0;
     margin: auto;
   }
+
+
   .projects-cols {
     max-width: 100%;
   }
+
   .proj-img {
     height: 200px;
   }
