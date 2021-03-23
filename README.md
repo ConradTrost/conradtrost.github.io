@@ -3,7 +3,7 @@
   
   ### <a href="https://trost.dev/" target="_blank">trost.dev</a>
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  ### Developed by [**Conrad Trost**](https://github.com/retro1967)
+  ### Developed by [**Conrad Trost**](https://github.com/conradtrost)
 
   ## Description
   #### A personal portfolio featuring React.
