@@ -10,6 +10,11 @@ import ResumePage from './components/pages/ResumePage';
 
 import "./App.scss";
 
+// analytics
+import ReactGA from 'react-ga';
+const TRACKING_ID = "UA-188054952-1";
+ReactGA.initialize(TRACKING_ID);
+
 ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>, document.getElementById('root'));
 
 function App() {

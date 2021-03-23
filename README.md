@@ -1,7 +1,7 @@
 
   # Portfolio (React)
   
-  ### <a href="https://trost.dev/" target="_blank">https://trost.dev</a>
+  ### <a href="https://trost.dev/" target="_blank">trost.dev</a>
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ### Developed by [**Conrad Trost**](https://github.com/retro1967)
 
@@ -9,7 +9,7 @@
   #### A personal portfolio featuring React.
 
 <p align="center">
-  <img src="./portfolio-screenshot.png" width="900" title="hover text">
+  <img src="./src/assets/images/trost-dev-screenshot.png" width="900" title="hover text">
 </p>
 
   ### Table of Contents:

@@ -26,10 +26,6 @@ export class HomePage extends Component {
         return (
             <div className="homeContain">
                 <Row>
-                    {/* <div className="lottie1">
-                            <Lottie className="lottie1" options={defaultOptions4} height={50} width={50} />
-                    </div> */}
-                    
                     <Col lg={7} md={12} sm={12} className="home-left">
                         <div className="inner-left">
                             <FadeIn delay="400">
