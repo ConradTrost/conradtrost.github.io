@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49c07dea2fedac8f11ec39ced3db4486",
+    "revision": "cb87204c5f579e35ab6f017967ed9b9b",
     "url": "/index.html"
   },
   {
-    "revision": "6778c98fce643bd74f39",
+    "revision": "7657d4976e0616b82c6e",
     "url": "/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "598462647272dc7b32e4",
-    "url": "/static/css/main.d3a74b3b.chunk.css"
+    "revision": "8c605702ae0fc3fb5902",
+    "url": "/static/css/main.02dff677.chunk.css"
   },
   {
-    "revision": "6778c98fce643bd74f39",
-    "url": "/static/js/2.60307305.chunk.js"
+    "revision": "7657d4976e0616b82c6e",
+    "url": "/static/js/2.d96cad0d.chunk.js"
   },
   {
     "revision": "49bbf232cf7a9ab8477d1bac88dddc10",
-    "url": "/static/js/2.60307305.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d96cad0d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "598462647272dc7b32e4",
-    "url": "/static/js/main.b6b029f5.chunk.js"
+    "revision": "8c605702ae0fc3fb5902",
+    "url": "/static/js/main.d09ccae2.chunk.js"
   },
   {
     "revision": "5ad169a58f97528d8d49",
@@ -36,12 +36,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/car.58718ca0.webp"
   },
   {
+    "revision": "5233a838ac3d264dd50432edc7763510",
+    "url": "/static/media/cedarcide_30.5233a838.png"
+  },
+  {
+    "revision": "688ff18610f0a035e46952c1069a6dde",
+    "url": "/static/media/cedarcide_30.688ff186.webp"
+  },
+  {
+    "revision": "809460d8d0e42563c79ceb475bf87fb1",
+    "url": "/static/media/coi_30.809460d8.webp"
+  },
+  {
+    "revision": "9e1a8df666a15de09e96e94275251239",
+    "url": "/static/media/coi_30.9e1a8df6.png"
+  },
+  {
     "revision": "509839f069a7a6d2cbbb6851858a8122",
     "url": "/static/media/editedheadshot2.509839f0.jpg"
   },
   {
     "revision": "cc94e36e10c6738bc2c5ddc68a644e07",
     "url": "/static/media/editedheadshot2.cc94e36e.webp"
+  },
+  {
+    "revision": "8de14180f9c6487708878c79cf26416d",
+    "url": "/static/media/immortelle_30.8de14180.webp"
+  },
+  {
+    "revision": "a25783e5d74eeb12406e3912f0d77086",
+    "url": "/static/media/immortelle_30.a25783e5.png"
   },
   {
     "revision": "e0d41c3b7a71ffee1d7ef7ad677017ba",
