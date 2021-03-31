@@ -8,11 +8,41 @@ import * as remote from '../assets/images/remote.jpg';
 import * as featured_webp from '../assets/images/space.webp';
 import * as car_webp from '../assets/images/car.webp'
 import * as remote_webp from '../assets/images/remote.webp';
+import * as immortelle from '../assets/images/immortelle_30.png';
+import * as immortelle_webp from '../assets/images/immortelle_30.webp';
+import * as cedarcide from '../assets/images/cedarcide_30.png';
+import * as cedarcide_webp from '../assets/images/cedarcide_30.webp';
+import * as coi from '../assets/images/coi_30.png';
+import * as coi_webp from '../assets/images/coi_30.webp';
 
 class Projects extends Component {
     render() {
 
         const projects = [
+            {
+                name: 'Immortelle Living',
+                link: 'https://immortelleliving.com',
+                description: 'Ecommerce website centered around skincare and essential oils. Website was created and maintained by myself and another developer (teammate).',
+                technologies: 'Wordpress, Custom PHP Plugins, Custom Theme Development',
+                image: immortelle,
+                webp: immortelle_webp
+            },
+            {
+                name: 'NEOO',
+                link: 'https://github.com/retro1967/NEOO',
+                description: 'Track Near-Earth-Orbiting-Objects on any date to see information and hazard level.',
+                technologies: 'jQuery, Javascript, NASA\'s NeoWS API, Bootstrap.',
+                image: featured,
+                webp: featured_webp
+            },
+            {
+                name: 'Cedarcide',
+                link: 'https://www.cedarcide.com',
+                description: `Multi-million dollar e-commerce site focused on providing safe insecticides to the world. Built with Woocommerce, this website generates millions in revenue annually. Website was created and maintained by myself and another developer (teammate).`,
+                technologies: 'Wordpress, Custom PHP Plugins, Custom Theme Development, jQuery, Javascript, PHP.',
+                image: cedarcide,
+                webp: cedarcide_webp
+            },
             {
                 name: 'Remote Social',
                 link: 'https://github.com/retro1967/remote-social',
@@ -22,12 +52,12 @@ class Projects extends Component {
                 webp: remote_webp
             },
             {
-                name: 'NEOO',
-                link: 'https://github.com/retro1967/NEOO',
-                description: 'Track Near-Earth-Orbiting-Objects on any date to see information and hazard level.',
-                technologies: 'jQuery, Javascript, NASA\'s NeoWS API, Bootstrap.',
-                image: featured,
-                webp: featured_webp
+                name: 'Cedar Oil Industries',
+                link: 'https://www.cedaroilstore.com',
+                description: 'Ecommerce website selling insect repellents made from essential oils. Uses Woocommerce, custom PHP plugins and theme adjustments, and Javascript to add flavor and functionality.',
+                technologies: 'Wordpress, Custom PHP Plugins, Custom Theme Development',
+                image: coi,
+                webp: coi_webp
             },
             {
                 name: 'Motor Services',
@@ -55,9 +85,8 @@ class Projects extends Component {
                                     <source className="card-img-top proj-img" srcSet={thing.image} type="image/jpeg" />
                                     <img className="card-img-top proj-img" src={thing.image} alt={thing.title} />
                                 </picture>
-                                {/* <Card.Img className="proj-img" src={thing.image} alt={thing.title} variant="top" /> */}
                                 <Card.Body>
-                                <Card.Title className="proj-title"><a href={thing.link} rel="noopener noreferrer" target="_blank" className="display-4">{thing.name}</a></Card.Title>
+                                <Card.Title className="proj-title"><h3><a href={thing.link} rel="noopener noreferrer" target="_blank" className="display-4">{thing.name}</a></h3></Card.Title>
                                 <Card.Text className="lead">
                                     {thing.description}
                                 </Card.Text>
