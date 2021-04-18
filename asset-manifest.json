@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.02dff677.chunk.css",
-    "main.js": "/static/js/main.d09ccae2.chunk.js",
-    "main.js.map": "/static/js/main.d09ccae2.chunk.js.map",
+    "main.js": "/static/js/main.ea5d0487.chunk.js",
+    "main.js.map": "/static/js/main.ea5d0487.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c873b34c.js",
     "runtime-main.js.map": "/static/js/runtime-main.c873b34c.js.map",
     "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.d96cad0d.chunk.js": "/static/js/2.d96cad0d.chunk.js",
-    "static/js/2.d96cad0d.chunk.js.map": "/static/js/2.d96cad0d.chunk.js.map",
+    "static/js/2.25806a20.chunk.js": "/static/js/2.25806a20.chunk.js",
+    "static/js/2.25806a20.chunk.js.map": "/static/js/2.25806a20.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.963c39afb358b78879682fdf697fb0ea.js": "/precache-manifest.963c39afb358b78879682fdf697fb0ea.js",
+    "precache-manifest.3b4df4ce22b955eb0ff9325beb2591d1.js": "/precache-manifest.3b4df4ce22b955eb0ff9325beb2591d1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.02dff677.chunk.css.map": "/static/css/main.02dff677.chunk.css.map",
-    "static/js/2.d96cad0d.chunk.js.LICENSE.txt": "/static/js/2.d96cad0d.chunk.js.LICENSE.txt",
+    "static/js/2.25806a20.chunk.js.LICENSE.txt": "/static/js/2.25806a20.chunk.js.LICENSE.txt",
     "static/media/car.jpg": "/static/media/car.15943470.jpg",
     "static/media/car.webp": "/static/media/car.58718ca0.webp",
     "static/media/cedarcide_30.png": "/static/media/cedarcide_30.5233a838.png",
@@ -29,13 +29,14 @@
     "static/media/remote.webp": "/static/media/remote.cbf2eea7.webp",
     "static/media/resume.pdf": "/static/media/resume.bc1b4ec2.pdf",
     "static/media/space.webp": "/static/media/space.27de6ef3.webp",
-    "static/media/space.jpg": "/static/media/space.9391a1c6.jpg"
+    "static/media/space.jpg": "/static/media/space.9391a1c6.jpg",
+    "static/media/trost-logo.png": "/static/media/trost-logo.622c1f20.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c873b34c.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.d96cad0d.chunk.js",
+    "static/js/2.25806a20.chunk.js",
     "static/css/main.02dff677.chunk.css",
-    "static/js/main.d09ccae2.chunk.js"
+    "static/js/main.ea5d0487.chunk.js"
   ]
 }
