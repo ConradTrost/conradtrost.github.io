@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6dc4446f1e52848c85b778979f572c40",
+    "revision": "53bdf61381dc2f9ef01d9149b9e1f45c",
     "url": "/index.html"
   },
   {
-    "revision": "d209788acb6c1b1e8cfe",
+    "revision": "7657d4976e0616b82c6e",
     "url": "/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "60ca67bd9099807264d5",
+    "revision": "8c605702ae0fc3fb5902",
     "url": "/static/css/main.02dff677.chunk.css"
   },
   {
-    "revision": "d209788acb6c1b1e8cfe",
-    "url": "/static/js/2.25806a20.chunk.js"
+    "revision": "7657d4976e0616b82c6e",
+    "url": "/static/js/2.d96cad0d.chunk.js"
   },
   {
     "revision": "49bbf232cf7a9ab8477d1bac88dddc10",
-    "url": "/static/js/2.25806a20.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d96cad0d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60ca67bd9099807264d5",
-    "url": "/static/js/main.ea5d0487.chunk.js"
+    "revision": "8c605702ae0fc3fb5902",
+    "url": "/static/js/main.d09ccae2.chunk.js"
   },
   {
     "revision": "5ad169a58f97528d8d49",
@@ -90,9 +90,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9391a1c6b71f3627e47b5be2e87df740",
     "url": "/static/media/space.9391a1c6.jpg"
-  },
-  {
-    "revision": "622c1f20dd72fd1a1763c44aba05dcd1",
-    "url": "/static/media/trost-logo.622c1f20.png"
   }
 ]);
