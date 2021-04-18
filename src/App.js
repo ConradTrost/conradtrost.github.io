@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 
 import Loading from "./loading.js";
 import ReactDOM from 'react-dom';
@@ -7,6 +8,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import ProjectPage from './components/pages/ProjectPage';
 import ContactPage from './components/pages/ContactPage';
 import ResumePage from './components/pages/ResumePage';
+import * as MetaDescSS from './assets/images/trost-logo.png';
 
 import "./App.scss";
 
@@ -21,6 +23,9 @@ function App() {
   return (
     // <Router>
       <div className="App">
+        <Helmet>
+          <meta prefix="og: http://ogp.me/ns#" property="og:image" content="{MetaDescSS}" />
+        </Helmet>
 
 
           <Route path="/" exact render={() => <Loading />} />
