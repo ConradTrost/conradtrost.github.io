@@ -29,7 +29,7 @@ export class HomePage extends Component {
                     <Col lg={7} md={12} sm={12} className="home-left">
                         <div className="inner-left">
                             <FadeIn delay="400">
-                                <h1 className="display-1">I'm Conrad.<br></br> Nice to meet you.</h1>
+                                <h1 className="display-1">I'm <span>Conrad.</span><br></br> Nice to meet you.</h1>
                                 <div class="subtext">
                                     <p className="lead">I am a full-stack web developer based in Dallas, Texas. 
                                     <br />I utilize my experience in <span className="impt_txt">marketing</span> and <span className="impt_txt">computer engineering</span> to create efficiently-coded, engaging websites.</p>
@@ -37,7 +37,7 @@ export class HomePage extends Component {
                             </FadeIn>
                         </div>
                         <div className="btn-holders">
-                            <a className="email-btn" href="mailto:conrad@trost.dev" target="_blank" rel="noopener noreferrer"><Button className="cta-btn" variant="outline-primary">Get in Touch!</Button></a>
+                            <a className="email-btn" href="/contact"><Button className="cta-btn" variant="outline-primary">Get in Touch!</Button></a>
                         </div>
                     </Col>
                     <Col md={5} className="home-right">

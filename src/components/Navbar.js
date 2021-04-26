@@ -23,7 +23,7 @@ class Navigation extends React.Component {
           <Navbar expand="lg" fixed="top" className="nav-bar" bg="transparent" >
           <Navbar.Brand href="/"><Lottie className="lottie" options={defaultOptions3} height={50} width={50} /><span className="trost-nav">Conrad Trost</span></Navbar.Brand>
 
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Toggle className="border-0 navbar-hamburger" aria-controls="navbar-toggle" variant="dark"/>
             <Navbar.Collapse id="navbar-toggle">
               
                 <Nav className="ml-auto">
