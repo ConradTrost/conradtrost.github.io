@@ -69,8 +69,6 @@ class Projects extends Component {
             }
         ];
 
-        const i = 0;
-
         return (
             <Container className="project-container" fluid>
                 <Row className="project-row">

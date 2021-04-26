@@ -37,7 +37,7 @@ export class ResumePage extends Component {
                                     <h3>Experience</h3>
                                 <div class="resume-cedarcide">
                                     <p><strong>Cedarcide, </strong>Dallas - <span style={{ fontStyle: "italic" }}>Web Developer</span></p>
-                                    <p style={{ color: "grey" }}>August 2020 - Present</p>
+                                    <p className="highlighted">August 2020 - Present</p>
                                     <p>
                                         Managed 6 websites on a team of 2.<br /> 
                                         Developed custom features built in <b>JavaScript</b> to <b>optimize site speed</b> using techniques such as <b>script deferring</b> and <b>conditional loading</b>.<br />
@@ -51,7 +51,7 @@ export class ResumePage extends Component {
                                 </div>
                                 <div class="resume-freelance">
                                     <p><strong>Freelance, </strong>Dallas - <span style={{ fontStyle: "italic" }}>Full Stack Web Developer</span></p>
-                                    <p style={{ color: "grey" }}>March 2020 - Present</p>
+                                    <p className="highlighted">March 2020 - Present</p>
                                     <p>
                                         Primarily worked with Insurance &#38; Real Estate Agencies.<br />
                                         Developing <b>headless Wordpress</b> websites with <b>React</b> on the front end.<br />
@@ -64,7 +64,7 @@ export class ResumePage extends Component {
                             <Row>
                                 <h3>Education</h3>
                                 <p><strong>University of Texas at Austin, </strong>Certificate - <span style={{ fontStyle: "italic" }}>Full Stack Web Development</span></p>
-                                <p style={{ color: "grey" }}>March 2020 - September 2020</p>
+                                <p className="highlighted">March 2020 - September 2020</p>
                                 <p>Demonstrated ability to properly utilize <b>React, Express, JavaScript</b>, as well as <b>MySQL</b> and <b>MongoDB</b>.</p>
 
                             </Row>
