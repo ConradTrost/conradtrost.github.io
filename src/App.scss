@@ -45,6 +45,7 @@ h1, h2, h3, h4 {
 .main {
   background-color: $background;
   height: 100vh;
+  padding-bottom: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -195,7 +196,6 @@ h1, h2, h3, h4 {
   background-color: $important;
   border-radius: 8px;
   padding: 10px;
-  opacity: 90% !important;
 }
 
 .show div a.nav-link {
@@ -207,7 +207,6 @@ h1, h2, h3, h4 {
   text-align: center;
   background-color: $important;
   border-radius: 8px;
-  opacity: 90%;
   padding: 10px;
 }
 

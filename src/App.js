@@ -21,13 +21,11 @@ function App() {
   return (
     // <Router>
       <div className="App">
-
           <Route path="/" exact render={() => <Loading />} />
           <Route path="/about" render={() => <AboutPage />} />
           <Route path="/projects" render={() => <ProjectPage />} />
           <Route path="/contact" render={() => <ContactPage />} />
           <Route path="/resume" render={() => <ResumePage />} />
-
       </div>
     // </Router>
   );

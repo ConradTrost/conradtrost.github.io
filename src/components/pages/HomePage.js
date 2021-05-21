@@ -31,8 +31,8 @@ export class HomePage extends Component {
                             <FadeIn delay="400">
                                 <h1 className="display-1">I'm <span>Conrad.</span><br></br> Nice to meet you.</h1>
                                 <div class="subtext">
-                                    <p className="lead">I am a full-stack web developer based in Dallas, Texas. 
-                                    <br />I utilize my experience in <span className="impt_txt">marketing</span> and <span className="impt_txt">computer engineering</span> to create efficiently-coded, engaging websites.</p>
+                                    <p className="lead">I am a full-stack web developer based in Dallas, Texas.</p>
+                                    <p className="lead">I utilize my experience in <span className="impt_txt">marketing</span> and <span className="impt_txt">computer engineering</span> to create efficiently-coded, engaging websites.</p>
                                 </div>
                             </FadeIn>
                         </div>
