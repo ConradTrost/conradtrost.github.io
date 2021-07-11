@@ -11,6 +11,22 @@ code {
     monospace;
 }
 
+.proj-img-wrap {
+  position: relative;
+}
+
+.proj-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.proj-overlay:hover {
+  visibility: visible;
+}
+
 .footer-btn:hover {
   animation: footer-animate;
 }

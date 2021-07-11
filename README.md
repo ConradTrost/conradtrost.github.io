@@ -15,24 +15,8 @@
   ### Table of Contents:
 
   **[Description](#description)**<br>
-  **[Installation Instructions](#installation-instructions)**<br>
-  **[Usage Instructions](#usage-instructions)**<br>
-  **[Contributions](#contributions)**<br>
-  **[Test Instructions](#test-instructions)**<br>
   **[License](#license)**<br>
   **[Questions](#questions)**<br>
-
-  ## Installation Instructions
-  N/A
-
-  ## Usage Instructions 
-  N/A
-
-  ## Contributions
-  N/A
-
-  ## Test Instructions
-  N/A
 
   ## License
   This application is covered under the [MIT](https://opensource.org/licenses/MIT) license.

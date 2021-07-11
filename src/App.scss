@@ -241,6 +241,8 @@ h1, h2, h3, h4 {
 
 .proj-row {
   margin-bottom: 40px;
+  max-width: 1700px;
+  margin: auto;
 }
 
 .btn-container {
@@ -429,8 +431,12 @@ h1, h2, h3, h4 {
   background: transparent;
 }
 
-.proj-col:hover {
+.proj-img-wrap:hover {
   cursor: pointer;
+}
+
+.card-body {
+  min-height: 240px;
 }
 
 .proj-col:after {

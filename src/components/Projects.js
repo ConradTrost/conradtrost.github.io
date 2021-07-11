@@ -20,6 +20,14 @@ class Projects extends Component {
 
         const projects = [
             {
+                name: 'Remote Social',
+                link: 'https://github.com/retro1967/remote-social',
+                description: 'Users can search for movies and save them to their watchlist. Demonstrates complete use of the MERN Stack.',
+                technologies: 'React, MongoDB, GraphQL, Apollo, and Bootstrap.',
+                image: remote,
+                webp: remote_webp
+            },
+            {
                 name: 'Immortelle Living',
                 link: 'https://immortelleliving.com',
                 description: 'Ecommerce website centered around skincare and essential oils. Website was created and maintained by myself and another developer (teammate).',
@@ -42,14 +50,6 @@ class Projects extends Component {
                 technologies: 'Wordpress, Custom PHP Plugins, Custom Theme Development, jQuery, Javascript, PHP.',
                 image: cedarcide,
                 webp: cedarcide_webp
-            },
-            {
-                name: 'Remote Social',
-                link: 'https://github.com/retro1967/remote-social',
-                description: 'Users can search for movies and save them to their watchlist. Demonstrates complete use of the MERN Stack.',
-                technologies: 'React, MongoDB, GraphQL, Apollo, and Bootstrap.',
-                image: remote,
-                webp: remote_webp
             },
             {
                 name: 'Cedar Oil Industries',
@@ -77,12 +77,18 @@ class Projects extends Component {
                 <Row className="proj-row">
                     <CardColumns className="projects-cols" >
                     {projects.map(thing => (
-                            <Card className="proj-col">
-                                <picture >
-                                    <source className="card-img-top proj-img" srcSet={thing.webp} type="image/webp" />
-                                    <source className="card-img-top proj-img" srcSet={thing.image} type="image/jpeg" />
-                                    <img className="card-img-top proj-img" src={thing.image} alt={thing.title} />
-                                </picture>
+                            <Card className="proj-col" key={thing.name}>
+                                <a href={thing.link} rel="noopener noreferrer" target="_blank" className="proj-img-wrap">
+                                    <picture >
+                                        <source className="card-img-top proj-img" srcSet={thing.webp} type="image/webp" />
+                                        <source className="card-img-top proj-img" srcSet={thing.image} type="image/jpeg" />
+                                        <img className="card-img-top proj-img" src={thing.image} alt={thing.title} />
+                                    </picture>
+                                    <div className="proj-overlay">
+                                        <div className="gh-link">TEST</div>
+                                        <div className="live-link">TEST</div>
+                                    </div>
+                                </a>
                                 <Card.Body>
                                 <Card.Title className="proj-title"><h3><a href={thing.link} rel="noopener noreferrer" target="_blank" className="display-4">{thing.name}</a></h3></Card.Title>
                                 <Card.Text className="lead">
