@@ -14,6 +14,8 @@ import * as cedarcide from '../assets/images/cedarcide_30.png';
 import * as cedarcide_webp from '../assets/images/cedarcide_30.webp';
 import * as coi from '../assets/images/coi_30.png';
 import * as coi_webp from '../assets/images/coi_30.webp';
+import * as ottinsurance from '../assets/images/ottinsurance.png';
+import * as ottinsurance_webp from '../assets/images/ottinsurance.webp';
 
 class Projects extends Component {
     render() {
@@ -28,20 +30,36 @@ class Projects extends Component {
                 webp: remote_webp
             },
             {
-                name: 'Immortelle Living',
-                link: 'https://immortelleliving.com',
-                description: 'Ecommerce website centered around skincare and essential oils. Website was created and maintained by myself and another developer (teammate).',
-                technologies: 'Wordpress, Custom PHP Plugins, Custom Theme Development',
-                image: immortelle,
-                webp: immortelle_webp
-            },
-            {
                 name: 'NEOO',
                 link: 'https://github.com/retro1967/NEOO',
                 description: 'Track Near-Earth-Orbiting-Objects on any date to see information and hazard level.',
                 technologies: 'jQuery, Javascript, NASA\'s NeoWS API, Bootstrap.',
                 image: featured,
                 webp: featured_webp
+            },
+            {
+                name: 'Motor Services',
+                link: 'https://github.com/retro1967/motor-services',
+                description: 'Keep track of maintenance issues using the logbook or see which maintenance needs to be done based on your mileage.',
+                technologies: 'Express, Handlebars.js, MySQL, Node.js.',
+                image: car,
+                webp: car_webp
+            },
+            {
+                name: 'Ott Insurance Agency',
+                link: 'https://ottinsurance.agency/',
+                description: 'Static webpage built for a client. Utilizes lazy-loading, webp images, and a lot of SEO metadata.',
+                technologies: 'Gatsby, React, Tailwind.CSS',
+                image: ottinsurance,
+                webp: ottinsurance_webp
+            },
+            {
+                name: 'Immortelle Living',
+                link: 'https://immortelleliving.com',
+                description: 'Ecommerce website centered around skincare and essential oils. Website was created and maintained by myself and another developer (teammate).',
+                technologies: 'Wordpress, Custom PHP Plugins, Custom Theme Development',
+                image: immortelle,
+                webp: immortelle_webp
             },
             {
                 name: 'Cedarcide',
@@ -51,22 +69,14 @@ class Projects extends Component {
                 image: cedarcide,
                 webp: cedarcide_webp
             },
-            {
-                name: 'Cedar Oil Industries',
-                link: 'https://www.cedaroilstore.com',
-                description: 'Ecommerce website selling insect repellents made from essential oils. Uses Woocommerce, custom PHP plugins and theme adjustments, and Javascript to add flavor and functionality.',
-                technologies: 'Wordpress, Custom PHP Plugins, Custom Theme Development',
-                image: coi,
-                webp: coi_webp
-            },
-            {
-                name: 'Motor Services',
-                link: 'https://github.com/retro1967/motor-services',
-                description: 'Keep track of maintenance issues using the logbook or see which maintenance needs to be done based on your mileage.',
-                technologies: 'Express, Handlebars.js, MySQL, Node.js.',
-                image: car,
-                webp: car_webp
-            }
+            // {
+            //     name: 'Cedar Oil Industries',
+            //     link: 'https://www.cedaroilstore.com',
+            //     description: 'Ecommerce website selling insect repellents made from essential oils. Uses Woocommerce, custom PHP plugins and theme adjustments, and Javascript to add flavor and functionality.',
+            //     technologies: 'Wordpress, Custom PHP Plugins, Custom Theme Development',
+            //     image: coi,
+            //     webp: coi_webp
+            // },
         ];
 
         return (
@@ -74,8 +84,7 @@ class Projects extends Component {
                 <Row className="project-row">
                     <Col className="display-3 project-header">Projects</Col>
                 </Row>
-                <Row className="proj-row">
-                    <CardColumns className="projects-cols" >
+                <Row xs={1} md={2} xl={3} className="proj-row projects-cols">
                     {projects.map(thing => (
                             <Card className="proj-col" key={thing.name}>
                                 <a href={thing.link} rel="noopener noreferrer" target="_blank" className="proj-img-wrap">
@@ -101,7 +110,6 @@ class Projects extends Component {
                                 </Card.Body>
                             </Card>
                     ))}
-                    </CardColumns>
                 </Row>
                 <Footer />
             </Container>

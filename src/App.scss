@@ -57,6 +57,10 @@ h1, h2, h3, h4 {
   font-size: 84px;
 }
 
+.display-3, .display-4 {
+  color: $important;
+}
+
 .lead {
   font-family: sans-serif;
   font-weight: 400;
@@ -429,6 +433,7 @@ h1, h2, h3, h4 {
 .proj-col {
   margin: auto;
   background: transparent;
+  padding: 0 10px;
 }
 
 .proj-img-wrap:hover {
@@ -436,7 +441,7 @@ h1, h2, h3, h4 {
 }
 
 .card-body {
-  min-height: 240px;
+  min-height: 260px;
 }
 
 .proj-col:after {
@@ -488,7 +493,7 @@ h1, h2, h3, h4 {
   border-bottom: 1px solid $unselected;
 }
 
-.proj-title a:hover {
+.proj-title a:hover, .proj-col:hover .card-title a {
   transition: border-color 0.8s ease;
   border-bottom: 1px solid #fff;
 }
