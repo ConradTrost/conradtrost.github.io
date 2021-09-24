@@ -35,6 +35,21 @@ export class ResumePage extends Component {
                             </Row>
                             <Row>
                                     <h3>Experience</h3>
+                                <div class="resume-cbre">
+                                    <p><strong>CBRE, </strong>Dallas - <span style={{ fontStyle: "italic" }}>Software Engineer</span></p>
+                                    <p className="highlighted">August 2021 - Present</p>
+                                    <p> Front-End component-based UI/UX development using HTML, JavaScript, liquid, SCSS, and some SiteCore</p><br />
+                                </div>
+                                <div class="resume-jands">
+                                    <p><strong>Johnson & Sekin, </strong>Dallas - <span style={{ fontStyle: "italic" }}>Web Developer</span></p>
+                                    <p className="highlighted">April 2021 - August 2021</p>
+                                    <p>
+                                    Working directly with clients and creative team to extend website functionality using <strong>JavaScript</strong> and <strong>PHP</strong>.
+Creating <strong>HTML banner ads</strong> using CSS/JS. Implementing custom events using Google Tag Manager and Google Analytics.
+Designing and developing websites and features for various e-commerce, manufacturing, restaurant, and other large companies.
+Extending <strong>WordPress</strong> using <strong>custom themes and plugins</strong> to enhance speed and improve customer experience.
+                                    </p><br />
+                                </div>
                                 <div class="resume-cedarcide">
                                     <p><strong>Cedarcide, </strong>Dallas - <span style={{ fontStyle: "italic" }}>Web Developer</span></p>
                                     <p className="highlighted">August 2020 - Present</p>
