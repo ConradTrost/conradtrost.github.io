@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import Navbar from '../Navbar';
-import Footer from '../Footer';
-import ContactForm from '../ContactForm';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
 
 import { Container, Row, Col, Button } from 'react-bootstrap';
 

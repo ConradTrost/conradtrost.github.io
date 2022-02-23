@@ -1,16 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-
 import FadeIn from "react-fade-in";
 import Lottie from "react-lottie";
 
-import * as maskData from './maskLottie.json';
-import * as doneData from './doneLoading.json';
 
+import * as maskData from '../assets/icons/maskLottie.json';
+import * as doneData from '../assets/icons/doneLoading.json';
+import Main from '../pages/Main';
 
-import Main from './components/pages/Main';
-
-const defaultOptions = {
+const defaultOptions = { 
     loop: true,
     autoplay: true,
     animationData: maskData.default,

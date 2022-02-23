@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import Projects from '../Projects';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
+import Projects from '../components/Projects';
+import Navbar from '../components/Navbar';
 
 export class ProjectPage extends Component {
     render() {
