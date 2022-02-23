@@ -1,10 +1,10 @@
 import React from 'react';
-
 import Lottie from 'react-lottie';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Container, Navbar, Nav } from 'react-bootstrap/';
+import { NavLink, NavNavLink } from 'react-router-dom';
+import { Nav, Navbar } from 'react-bootstrap';
 
-import * as computerData from '../computer.json';
+
+import * as computerData from '../assets/icons/computer.json';
 
 const defaultOptions3 = {
   loop: true,
@@ -27,10 +27,10 @@ class Navigation extends React.Component {
             <Navbar.Collapse id="navbar-toggle">
               
                 <Nav className="ml-auto">
-                  <Link className="nav-link" to="/about">About</Link>
-                  <Link className="nav-link" to="/projects">Projects</Link>
-                  <Link className="nav-link" to="/resume">Resumé</Link>
-                  <Link className="nav-link" to="/contact">Contact</Link>
+                  <NavLink className="nav-link" to="/about">About</NavLink>
+                  <NavLink className="nav-link" to="/projects">Projects</NavLink>
+                  <NavLink className="nav-link" to="/resume">Resumé</NavLink>
+                  <NavLink className="nav-link" to="/contact">Contact</NavLink>
                 </Nav>
             </Navbar.Collapse>
           </Navbar>

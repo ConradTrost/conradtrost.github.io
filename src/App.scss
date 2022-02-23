@@ -1,16 +1,16 @@
 $unselected: #353535;
 $selected: #3a3a3a;
-$links: #96E6B3;
-$important: #96E6B3;
+$links: #96e6b3;
+$important: #96e6b3;
 $background: #070300;
 $primary-text: #fff;
 $secondary-text: #37ca6d;
 
 html {
-    overflow: scroll;
-    overflow-x: hidden;
-    background-color: $background !important;
-    font-size: 18px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: $background !important;
+  font-size: 18px;
 }
 
 html #root {
@@ -30,16 +30,19 @@ a:hover {
 }
 
 ::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-    background: #FF0000;
+  background: #ff0000;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Playfair Display';
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display";
 }
 
 .main {
@@ -57,7 +60,8 @@ h1, h2, h3, h4 {
   font-size: 84px;
 }
 
-.display-3, .display-4 {
+.display-3,
+.display-4 {
   color: $important;
 }
 
@@ -72,7 +76,7 @@ h1, h2, h3, h4 {
   font-weight: 600;
 }
 
-.h5 a{
+.h5 a {
   font-size: 34px;
 }
 
@@ -83,7 +87,6 @@ h1, h2, h3, h4 {
 
 .home-left {
   height: 100vh;
-  width: 100%;
   padding-top: 15vh;
 }
 
@@ -95,7 +98,7 @@ h1, h2, h3, h4 {
 .inner-left h1 {
   color: #fff;
   font-weight: 400;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
 }
 
 .inner-left .intro-container {
@@ -125,7 +128,7 @@ h1, h2, h3, h4 {
 }
 
 .loaded {
-  min-height: 0;;
+  min-height: 0;
   display: block;
   width: 100%;
   color: black;
@@ -154,7 +157,7 @@ h1, h2, h3, h4 {
 
 .row {
   padding: 0;
-  margin: 0 ;
+  margin: 0;
 }
 
 .inline-loading {
@@ -164,6 +167,7 @@ h1, h2, h3, h4 {
 .navbar-brand {
   display: flex;
   font-size: 26px;
+  margin-left: 20px;
 }
 
 .navbar-toggler {
@@ -183,6 +187,15 @@ h1, h2, h3, h4 {
   color: rgb(228, 131, 131);
 }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: end;
+    margin-right: 20px;
+  }
+}
+
 .nav-link {
   font-size: 22px;
   margin-top: -13px;
@@ -194,6 +207,11 @@ h1, h2, h3, h4 {
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: $links;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(228, 131, 131);
 }
 
 .show {
@@ -217,7 +235,6 @@ h1, h2, h3, h4 {
 .collapsing div a.nav-link {
   color: #000 !important;
 }
-
 
 .lottie1 {
   width: 100%;
@@ -311,7 +328,6 @@ h1, h2, h3, h4 {
   margin-bottom: 60px;
 }
 
-
 .project-img {
   object-fit: contain;
   flex: 1;
@@ -319,7 +335,6 @@ h1, h2, h3, h4 {
   max-height: 380px;
   border-radius: 5px;
 }
-
 
 .contact-descript {
   font-weight: 400;
@@ -445,7 +460,7 @@ h1, h2, h3, h4 {
 }
 
 .proj-col:after {
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;
@@ -456,15 +471,15 @@ h1, h2, h3, h4 {
 .proj-col p {
   color: white;
   font-weight: 400;
-  font-size: 14px;;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-
-.proj-col h3 a{
+.proj-col h3 a {
   color: #fff;
   font-weight: 400;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
 }
 
 @media (max-width: 1076px) {
@@ -493,7 +508,8 @@ h1, h2, h3, h4 {
   border-bottom: 1px solid $unselected;
 }
 
-.proj-title a:hover, .proj-col:hover .card-title a {
+.proj-title a:hover,
+.proj-col:hover .card-title a {
   transition: border-color 0.8s ease;
   border-bottom: 1px solid #fff;
 }
@@ -507,7 +523,6 @@ h1, h2, h3, h4 {
   width: 100%;
   text-align: center;
 }
-
 
 /* Resume Section */
 .resume-contain h3 {
@@ -542,8 +557,8 @@ h1, h2, h3, h4 {
 
 @media only screen and (max-width: 500px) {
   .navbar-light .navbar-nav .nav-link {
-  color: $primary-text;
-}
+    color: $primary-text;
+  }
   .contact-header {
     font-size: 34px;
   }
@@ -552,7 +567,6 @@ h1, h2, h3, h4 {
     min-height: 0;
     margin: auto;
   }
-
 
   .projects-cols {
     max-width: 100%;
@@ -578,7 +592,6 @@ h1, h2, h3, h4 {
     font-size: 22px;
   }
 }
-
 
 @media only screen and (max-width: 1080px) {
   .home-right {

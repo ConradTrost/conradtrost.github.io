@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 
-import About from '../About';
-import Skills from '../Skills';
-
-import Navigation from '../Navbar';
+import About from '../components/About';
+import Skills from '../components/Skills';
+import Navigation from '../components/Navbar';
 
 export class AboutPage extends Component {
     render() {

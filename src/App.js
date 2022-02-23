@@ -1,12 +1,13 @@
 import React from "react";
 
-import Loading from "./loading.js";
 import ReactDOM from 'react-dom';
-import AboutPage from './components/pages/AboutPage';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import ProjectPage from './components/pages/ProjectPage';
-import ContactPage from './components/pages/ContactPage';
-import ResumePage from './components/pages/ResumePage';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import Loading from "./components/loading.js";
+import AboutPage from './pages/AboutPage';
+import ProjectPage from './pages/ProjectPage';
+import ContactPage from './pages/ContactPage';
+import ResumePage from './pages/ResumePage';
 
 import "./App.scss";
 
