@@ -18,7 +18,7 @@
     "react-loading": "^2.0.3",
     "react-lottie": "^1.2.3",
     "react-router-dom": "^6.2.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "sass": "^1.49.8",
     "scss": "^0.2.4"
   },
